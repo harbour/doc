@@ -13,6 +13,13 @@
 <link rel="stylesheet" crossorigin="anonymous" referrerpolicy="no-referrer" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/themes/prism-okaidia.min.css">
 <link rel="stylesheet" href="hbdoc.css">
 
+<script>
+  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+  ga('create', 'UA-86676305-2', 'auto');
+  ga('set', 'transport', 'beacon');
+  ga('send', 'pageview');
+</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
 <body>
 
 <header>
@@ -75,8 +82,8 @@
 <main>
 
 <section>
-<h4><a href="#hb_getzipcomment" class="d-id" id="hb_getzipcomment" title="∞"><code>hb_GetZipComment()</code></a><a href="https://github.com/vszakats/harbour-core/blob/b2f34c1/contrib/hbziparc\ziparc.prg#L76" class="d-so" title="contrib/hbziparc\ziparc.prg">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=hb_GetZipComment">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+hb_GetZipComment">in Discussions</a></nav></nav></span>
-<span class="d-eb"><a href="#" title="Top" class="d-ebi">⌃</a> | <a href="index.html" title="Index" class="d-ebi">☰</a> | <a href="https://github.com/vszakats/harbour-core/edit/master/contrib\hbziparc\doc\en\ziparc.txt">Improve this doc</a></span></h4>
+<h4><a href="#hb_getzipcomment" class="d-id" id="hb_getzipcomment" title="∞"><code>hb_GetZipComment()</code></a><a href="https://github.com/vszakats/harbour-core/blob/e4194ec/contrib/hbziparc/ziparc.prg#L76" class="d-so" title="contrib/hbziparc/ziparc.prg">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=hb_GetZipComment">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+hb_GetZipComment">in Discussions</a></nav></nav></span>
+<span class="d-eb"><a href="#" title="Top" class="d-ebi">⌃</a> | <a href="index.html" title="Index" class="d-ebi">☰</a> | <a href="https://github.com/vszakats/harbour-core/edit/master/contrib/hbziparc/doc/en/ziparc.txt">Improve this doc</a></span></h4>
 <div class="d-ol">Return the comment of an zip file</div>
 <div class="d-d">Syntax</div>
 <div class="d-sy"><pre><code>hb_GetZipComment( &lt;szFile&gt; ) → &lt;szComment&gt;</code></pre></div>
@@ -102,23 +109,23 @@
 </section>
 
 <section>
-<h4><a href="#hb_setbuffer" class="d-id" id="hb_setbuffer" title="∞"><code>hb_SetBuffer()</code></a><a href="https://github.com/vszakats/harbour-core/blob/b2f34c1/contrib/hbziparc\ziparc.prg#L215" class="d-so" title="contrib/hbziparc\ziparc.prg">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=hb_SetBuffer">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+hb_SetBuffer">in Discussions</a></nav></nav></span>
-<span class="d-eb"><a href="#" title="Top" class="d-ebi">⌃</a> | <a href="index.html" title="Index" class="d-ebi">☰</a> | <a href="https://github.com/vszakats/harbour-core/edit/master/contrib\hbziparc\doc\en\ziparc.txt">Improve this doc</a></span></h4>
+<h4><a href="#hb_setbuffer" class="d-id" id="hb_setbuffer" title="∞"><code>hb_SetBuffer()</code></a><a href="https://github.com/vszakats/harbour-core/blob/e4194ec/contrib/hbziparc/ziparc.prg#L215" class="d-so" title="contrib/hbziparc/ziparc.prg">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=hb_SetBuffer">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+hb_SetBuffer">in Discussions</a></nav></nav></span>
+<span class="d-eb"><a href="#" title="Top" class="d-ebi">⌃</a> | <a href="index.html" title="Index" class="d-ebi">☰</a> | <a href="https://github.com/vszakats/harbour-core/edit/master/contrib/hbziparc/doc/en/ziparc.txt">Improve this doc</a></span></h4>
 <div class="d-d">Syntax</div>
 <div class="d-sy"><pre><code>hb_SetBuffer( [&lt;nWriteBuffer&gt;], [&lt;nExtractBuffer&gt;], [&lt;nReadBuffer&gt;] ) → NIL</code></pre></div>
 <div class="d-d">Arguments</div>
 <div class="d-it">
-  <div><code>nWriteBuffer</code>   The size of the write buffer.
-<code>nExtractBuffer</code> The size of the extract buffer.
-<code>nReadBuffer</code>    The size of the read buffer.</div>
+  <div><code>nWriteBuffer</code>   The size of the write buffer.</div>
+  <div><code>nExtractBuffer</code> The size of the extract buffer.</div>
+  <div><code>nReadBuffer</code>    The size of the read buffer.</div>
 </div>
 <div class="d-d">Returns</div>
 <div class="d-it"><code>NIL</code>            This function always returns <code>NIL</code>.</div>
 <div class="d-d">Description</div>
 <div class="d-it">
-  <div><p>This function set the size of the internal buffers for write/extract/read operation.
-If the size of the buffer is smaller then the default, the function will automatically use the default values, which are 65535/16384/32768 respectively.
-This function be called before any of the compression/decompression functions.</div>
+  <div><p>This function set the size of the internal buffers for write/extract/read operation.</div>
+  <div><p>If the size of the buffer is smaller then the default, the function will automatically use the default values, which are 65535/16384/32768 respectively.</div>
+  <div><p>This function be called before any of the compression/decompression functions.</div>
 </div>
 <div class="d-d">Examples</div>
 <pre class="d-ex"><code class="language-c">hb_SetBuffer( 100000, 115214, 65242 )
@@ -136,8 +143,8 @@ This function be called before any of the compression/decompression functions.</
 </section>
 
 <section>
-<h4><a href="#hb_setdiskzip" class="d-id" id="hb_setdiskzip" title="∞"><code>hb_SetDiskZip()</code></a><a href="https://github.com/vszakats/harbour-core/blob/b2f34c1/contrib/hbziparc\ziparc.prg#L197" class="d-so" title="contrib/hbziparc\ziparc.prg">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=hb_SetDiskZip">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+hb_SetDiskZip">in Discussions</a></nav></nav></span>
-<span class="d-eb"><a href="#" title="Top" class="d-ebi">⌃</a> | <a href="index.html" title="Index" class="d-ebi">☰</a> | <a href="https://github.com/vszakats/harbour-core/edit/master/contrib\hbziparc\doc\en\ziparc.txt">Improve this doc</a></span></h4>
+<h4><a href="#hb_setdiskzip" class="d-id" id="hb_setdiskzip" title="∞"><code>hb_SetDiskZip()</code></a><a href="https://github.com/vszakats/harbour-core/blob/e4194ec/contrib/hbziparc/ziparc.prg#L197" class="d-so" title="contrib/hbziparc/ziparc.prg">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=hb_SetDiskZip">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+hb_SetDiskZip">in Discussions</a></nav></nav></span>
+<span class="d-eb"><a href="#" title="Top" class="d-ebi">⌃</a> | <a href="index.html" title="Index" class="d-ebi">☰</a> | <a href="https://github.com/vszakats/harbour-core/edit/master/contrib/hbziparc/doc/en/ziparc.txt">Improve this doc</a></span></h4>
 <div class="d-ol">Set a codeblock for disk changes</div>
 <div class="d-d">Syntax</div>
 <div class="d-sy"><pre><code>hb_SetDiskZip( &lt;bBlock&gt; ) → .T.</code></pre></div>
@@ -147,8 +154,8 @@ This function be called before any of the compression/decompression functions.</
 <div class="d-it">It always returns True</div>
 <div class="d-d">Description</div>
 <div class="d-it">
-  <div><p>This function will set a codeblock that will be evaluated every time that an changedisk event is necessary. <code>bBlock</code> receives <code>nDisk</code> as a codeblock param that corresponds to the diskette number to be processed.
-Set this function before opening archives that are in removable media. This block will be released, when the caller finish it job.</div>
+  <div><p>This function will set a codeblock that will be evaluated every time that an changedisk event is necessary. <code>bBlock</code> receives <code>nDisk</code> as a codeblock param that corresponds to the diskette number to be processed.</div>
+  <div><p>Set this function before opening archives that are in removable media. This block will be released, when the caller finish it job.</div>
 </div>
 <div class="d-d">Examples</div>
 <pre class="d-ex"><code class="language-c">hb_SetDiskZip( {| nDisk | Alert( &quot;Please insert disk no &quot; + hb_ntos( nDisk ) ) } )
@@ -164,8 +171,8 @@ Set this function before opening archives that are in removable media. This bloc
 </section>
 
 <section>
-<h4><a href="#hb_setzipcomment" class="d-id" id="hb_setzipcomment" title="∞"><code>hb_SetZipComment()</code></a><a href="https://github.com/vszakats/harbour-core/blob/b2f34c1/contrib/hbziparc\ziparc.prg#L68" class="d-so" title="contrib/hbziparc\ziparc.prg">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=hb_SetZipComment">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+hb_SetZipComment">in Discussions</a></nav></nav></span>
-<span class="d-eb"><a href="#" title="Top" class="d-ebi">⌃</a> | <a href="index.html" title="Index" class="d-ebi">☰</a> | <a href="https://github.com/vszakats/harbour-core/edit/master/contrib\hbziparc\doc\en\ziparc.txt">Improve this doc</a></span></h4>
+<h4><a href="#hb_setzipcomment" class="d-id" id="hb_setzipcomment" title="∞"><code>hb_SetZipComment()</code></a><a href="https://github.com/vszakats/harbour-core/blob/e4194ec/contrib/hbziparc/ziparc.prg#L68" class="d-so" title="contrib/hbziparc/ziparc.prg">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=hb_SetZipComment">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+hb_SetZipComment">in Discussions</a></nav></nav></span>
+<span class="d-eb"><a href="#" title="Top" class="d-ebi">⌃</a> | <a href="index.html" title="Index" class="d-ebi">☰</a> | <a href="https://github.com/vszakats/harbour-core/edit/master/contrib/hbziparc/doc/en/ziparc.txt">Improve this doc</a></span></h4>
 <div class="d-ol">Set an Zip archive Comment</div>
 <div class="d-d">Syntax</div>
 <div class="d-sy"><pre><code>hb_SetZipComment( &lt;cComment&gt; ) → NIL</code></pre></div>
@@ -178,7 +185,6 @@ Set this function before opening archives that are in removable media. This bloc
 <div class="d-d">Examples</div>
 <pre class="d-ex"><code class="language-c">hb_SetZipComment( &quot;This is an Test&quot; )
 hb_ZipFile( &quot;test.zip&quot;, { &quot;ios.ini&quot;, &quot;win.ini&quot; } )
-
 </code></pre>
 <div class="d-d">Status</div>
 <div class="d-it">Ready</div>
@@ -193,35 +199,34 @@ hb_ZipFile( &quot;test.zip&quot;, { &quot;ios.ini&quot;, &quot;win.ini&quot; } )
 </section>
 
 <section>
-<h4><a href="#hb_unzipfile" class="d-id" id="hb_unzipfile" title="∞"><code>hb_UnzipFile()</code></a><a href="https://github.com/vszakats/harbour-core/blob/b2f34c1/contrib/hbziparc\ziparc.prg#L389" class="d-so" title="contrib/hbziparc\ziparc.prg">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=hb_UnzipFile">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+hb_UnzipFile">in Discussions</a></nav></nav></span>
-<span class="d-eb"><a href="#" title="Top" class="d-ebi">⌃</a> | <a href="index.html" title="Index" class="d-ebi">☰</a> | <a href="https://github.com/vszakats/harbour-core/edit/master/contrib\hbziparc\doc\en\ziparc.txt">Improve this doc</a></span></h4>
+<h4><a href="#hb_unzipfile" class="d-id" id="hb_unzipfile" title="∞"><code>hb_UnzipFile()</code></a><a href="https://github.com/vszakats/harbour-core/blob/e4194ec/contrib/hbziparc/ziparc.prg#L389" class="d-so" title="contrib/hbziparc/ziparc.prg">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=hb_UnzipFile">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+hb_UnzipFile">in Discussions</a></nav></nav></span>
+<span class="d-eb"><a href="#" title="Top" class="d-ebi">⌃</a> | <a href="index.html" title="Index" class="d-ebi">☰</a> | <a href="https://github.com/vszakats/harbour-core/edit/master/contrib/hbziparc/doc/en/ziparc.txt">Improve this doc</a></span></h4>
 <div class="d-ol">Unzip a compressed file</div>
 <div class="d-d">Syntax</div>
 <div class="d-sy d-sym">
 <pre><code>hb_UnzipFile( &lt;cFile&gt;, &lt;bBlock&gt;, &lt;lWithPath&gt;, &lt;cPassword&gt;, &lt;cPath&gt;,
               &lt;cFile&gt; | &lt;aFile&gt;, &lt;pFileProgress&gt; ) → lCompress
-
 </code></pre>
 </div>
 <div class="d-d">Arguments</div>
 <div class="d-it">
-  <div><code>cFile</code>   Name of the zip file to extract
-<code>bBlock</code>  Codeblock to execute while extracting
-<code>lWithPath</code> Toggle to create directory if needed
-<code>cPassword</code> Password to use to extract files
-<code>cPath</code>    Path to extract the files to - mandatory
-<code>cFile</code> | <code>aFiles</code> A File or Array of files to extract - mandatory
-<code>pFileProgress</code> Codeblock for File Progress</div>
+  <div><code>cFile</code>   Name of the zip file to extract</div>
+  <div><code>bBlock</code>  Codeblock to execute while extracting</div>
+  <div><code>lWithPath</code> Toggle to create directory if needed</div>
+  <div><code>cPassword</code> Password to use to extract files</div>
+  <div><code>cPath</code>    Path to extract the files to - mandatory</div>
+  <div><code>cFile</code> | <code>aFiles</code> A File or Array of files to extract - mandatory</div>
+  <div><code>pFileProgress</code> Codeblock for File Progress</div>
 </div>
 <div class="d-d">Returns</div>
 <div class="d-it"><code>lCompress</code>  <code>.T.</code> if all file was successfully restored, otherwise <code>.F.</code></div>
 <div class="d-d">Description</div>
 <div class="d-it">
-  <div><p>This function restores all files contained inside the <code>cFile</code>. If the extension is omitted, .zip will be assumed. If a file already exists, it will be overwritten.
-If <code>bBlock</code> is used, every time the file is opened to compress it will evaluate <code>bBlock</code>. Parameters of <code>bBlock</code> are <code>cFile</code> and <code>nPos</code>.
-The <code>cPath</code> is a mandatory parameter. Set to <code>./</code> to extract to the current directory.
-If <code>cFile</code> or <code>aFiles</code> are not provided, no files will be extracted! Make sure you provide the file or files you want extracted.
-If <code>pFileProgress</code> is used, a codeblock is evaluated, showing the total of that file has being processed. The codeblock must be defined as: <code>{| nPos, nTotal | GaugeUpdate( aGauge1, nPos / nTotal ) }</code></div>
+  <div><p>This function restores all files contained inside the <code>cFile</code>. If the extension is omitted, .zip will be assumed. If a file already exists, it will be overwritten.</div>
+  <div><p>If <code>bBlock</code> is used, every time the file is opened to compress it will evaluate <code>bBlock</code>. Parameters of <code>bBlock</code> are <code>cFile</code> and <code>nPos</code>.</div>
+  <div><p>The <code>cPath</code> is a mandatory parameter. Set to <code>./</code> to extract to the current directory.</div>
+  <div><p>If <code>cFile</code> or <code>aFiles</code> are not provided, no files will be extracted! Make sure you provide the file or files you want extracted.</div>
+  <div><p>If <code>pFileProgress</code> is used, a codeblock is evaluated, showing the total of that file has being processed. The codeblock must be defined as: <code>{| nPos, nTotal | GaugeUpdate( aGauge1, nPos / nTotal ) }</code></div>
 </div>
 <div class="d-d">Examples</div>
 <pre class="d-ex"><code class="language-c">LOCAL aExtract
@@ -237,7 +242,6 @@ IF hb_UnzipFile( &quot;test2.zip&quot;, {| cFile | QOut( cFile ) },,, &quot;.&qu
 ENDIF
 
 RETURN
-
 </code></pre>
 <div class="d-d">Status</div>
 <div class="d-it">Ready</div>
@@ -252,19 +256,19 @@ RETURN
 </section>
 
 <section>
-<h4><a href="#hb_zipdeletefiles" class="d-id" id="hb_zipdeletefiles" title="∞"><code>hb_ZipDeleteFiles()</code></a><a href="https://github.com/vszakats/harbour-core/blob/b2f34c1/contrib/hbziparc\ziparc.prg#L488" class="d-so" title="contrib/hbziparc\ziparc.prg">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=hb_ZipDeleteFiles">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+hb_ZipDeleteFiles">in Discussions</a></nav></nav></span>
-<span class="d-eb"><a href="#" title="Top" class="d-ebi">⌃</a> | <a href="index.html" title="Index" class="d-ebi">☰</a> | <a href="https://github.com/vszakats/harbour-core/edit/master/contrib\hbziparc\doc\en\ziparc.txt">Improve this doc</a></span></h4>
+<h4><a href="#hb_zipdeletefiles" class="d-id" id="hb_zipdeletefiles" title="∞"><code>hb_ZipDeleteFiles()</code></a><a href="https://github.com/vszakats/harbour-core/blob/e4194ec/contrib/hbziparc/ziparc.prg#L488" class="d-so" title="contrib/hbziparc/ziparc.prg">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=hb_ZipDeleteFiles">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+hb_ZipDeleteFiles">in Discussions</a></nav></nav></span>
+<span class="d-eb"><a href="#" title="Top" class="d-ebi">⌃</a> | <a href="index.html" title="Index" class="d-ebi">☰</a> | <a href="https://github.com/vszakats/harbour-core/edit/master/contrib/hbziparc/doc/en/ziparc.txt">Improve this doc</a></span></h4>
 <div class="d-ol">Delete files from an zip archive</div>
 <div class="d-d">Syntax</div>
 <div class="d-sy"><pre><code>hb_ZipDeleteFiles( &lt;cFile&gt;, &lt;cFiletoDelete&gt; | &lt;aFiles&gt; | &lt;nFilePos&gt; ) → lDeleted</code></pre></div>
 <div class="d-d">Arguments</div>
 <div class="d-it">
-  <div><code>cFile</code>  The name of the zip files from where the files will be deleted
-<code>cFiletoDelete</code> An File to be removed
-<em>or</em>
-<code>aFiles</code>    An Array of Files to be removed
-<em>or</em>
-<code>nFilePos</code> The Position of the file to be removed</div>
+  <div><code>cFile</code>  The name of the zip files from where the files will be deleted</div>
+  <div><code>cFiletoDelete</code> An File to be removed</div>
+  <div><em>or</em></div>
+  <div><code>aFiles</code>    An Array of Files to be removed</div>
+  <div><em>or</em></div>
+  <div><code>nFilePos</code> The Position of the file to be removed</div>
 </div>
 <div class="d-d">Returns</div>
 <div class="d-it"><code>lDeleted</code> If the files are deleted, it will return <code>.T.</code>; otherwise it will return <code>.F.</code> in the following cases: Spanned Archives; the file(s) could not be found in the zip file.</div>
@@ -286,43 +290,42 @@ RETURN
 </section>
 
 <section>
-<h4><a href="#hb_zipfile" class="d-id" id="hb_zipfile" title="∞"><code>hb_ZipFile()</code></a><a href="https://github.com/vszakats/harbour-core/blob/b2f34c1/contrib/hbziparc\ziparc.prg#L237" class="d-so" title="contrib/hbziparc\ziparc.prg">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=hb_ZipFile">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+hb_ZipFile">in Discussions</a></nav></nav></span>
-<span class="d-eb"><a href="#" title="Top" class="d-ebi">⌃</a> | <a href="index.html" title="Index" class="d-ebi">☰</a> | <a href="https://github.com/vszakats/harbour-core/edit/master/contrib\hbziparc\doc\en\ziparc.txt">Improve this doc</a></span></h4>
+<h4><a href="#hb_zipfile" class="d-id" id="hb_zipfile" title="∞"><code>hb_ZipFile()</code></a><a href="https://github.com/vszakats/harbour-core/blob/e4194ec/contrib/hbziparc/ziparc.prg#L237" class="d-so" title="contrib/hbziparc/ziparc.prg">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=hb_ZipFile">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+hb_ZipFile">in Discussions</a></nav></nav></span>
+<span class="d-eb"><a href="#" title="Top" class="d-ebi">⌃</a> | <a href="index.html" title="Index" class="d-ebi">☰</a> | <a href="https://github.com/vszakats/harbour-core/edit/master/contrib/hbziparc/doc/en/ziparc.txt">Improve this doc</a></span></h4>
 <div class="d-ol">Create a zip file</div>
 <div class="d-d">Syntax</div>
 <div class="d-sy d-sym">
 <pre><code>hb_ZipFile( &lt;cFile&gt;, &lt;cFileToCompress&gt; | &lt;aFiles&gt;, &lt;nLevel&gt;,
 &lt;bBlock&gt;, &lt;lOverWrite&gt;, &lt;cPassword&gt;, &lt;lWithPath&gt;, &lt;lWithDrive&gt;,
 &lt;pFileProgress&gt; ) → lCompress
-
 </code></pre>
 </div>
 <div class="d-d">Arguments</div>
 <div class="d-it">
-  <div><code>cFile</code>   Name of the zip file to create
-<code>cFileToCompress</code>  Name of a file to Compress, Drive and/or path can be used
-<em>or</em>
-<code>aFiles</code>  An array containing files to compress, Drive and/or path can be used
-<code>nLevel</code>  Compression level ranging from 0 to 9
-<code>bBlock</code>  Codeblock to execute while compressing
-<code>lOverWrite</code>  Toggle to overwrite the file if exists
-<code>cPassword</code> Password to encrypt the files
-<code>lWithPath</code> Toggle to store the path or not
-<code>lWithDrive</code> Toggle to store the Drive letter and path or not
-<code>pFileProgress</code> Codeblock for File Progress</div>
+  <div><code>cFile</code>   Name of the zip file to create</div>
+  <div><code>cFileToCompress</code>  Name of a file to Compress, Drive and/or path can be used</div>
+  <div><em>or</em></div>
+  <div><code>aFiles</code>  An array containing files to compress, Drive and/or path can be used</div>
+  <div><code>nLevel</code>  Compression level ranging from 0 to 9</div>
+  <div><code>bBlock</code>  Codeblock to execute while compressing</div>
+  <div><code>lOverWrite</code>  Toggle to overwrite the file if exists</div>
+  <div><code>cPassword</code> Password to encrypt the files</div>
+  <div><code>lWithPath</code> Toggle to store the path or not</div>
+  <div><code>lWithDrive</code> Toggle to store the Drive letter and path or not</div>
+  <div><code>pFileProgress</code> Codeblock for File Progress</div>
 </div>
 <div class="d-d">Returns</div>
 <div class="d-it"><code>lCompress</code>  <code>.T.</code> if file was create, otherwise <code>.F.</code></div>
 <div class="d-d">Description</div>
 <div class="d-it">
-  <div><p>This function creates a zip file named <code>cFile</code>. If the extension is omitted, .zip will be assumed. If the second parameter is a character string, this file will be added to the zip file. If the second parameter is an array, all file names contained in <code>aFiles</code> will be compressed.
-If <code>nLevel</code> is used, it determines the compression type where 0 means no compression and 9 means best compression.
-If <code>bBlock</code> is used, every time the file is opened to compress it will evaluate <code>bBlock</code>. Parameters of <code>bBlock</code> are <code>cFile</code> and <code>nPos</code>.
-If <code>lOverWrite</code> is used, it toggles to overwrite or not the existing file. Default is to overwrite the file, otherwise if <code>lOverWrite</code> is false the new files are added to the <code>cFile</code>.
-If <code>cPassword</code> is used, all files that are added to the archive are encrypted with the password.
-If <code>lWithPath</code> is used, it tells  the path should also be stored with the file name. Default is false.
-If <code>lWithDrive</code> is used, it tells thats the Drive and path should also be stored with the file name. Default is false.
-If <code>pFileProgress</code> is used, a codeblock is evaluated, showing the total of that file has being processed. The codeblock must be defined as: <code>{| nPos, nTotal | GaugeUpdate( aGauge1, nPos / nTotal ) }</code></div>
+  <div><p>This function creates a zip file named <code>cFile</code>. If the extension is omitted, .zip will be assumed. If the second parameter is a character string, this file will be added to the zip file. If the second parameter is an array, all file names contained in <code>aFiles</code> will be compressed.</div>
+  <div><p>If <code>nLevel</code> is used, it determines the compression type where 0 means no compression and 9 means best compression.</div>
+  <div><p>If <code>bBlock</code> is used, every time the file is opened to compress it will evaluate <code>bBlock</code>. Parameters of <code>bBlock</code> are <code>cFile</code> and <code>nPos</code>.</div>
+  <div><p>If <code>lOverWrite</code> is used, it toggles to overwrite or not the existing file. Default is to overwrite the file, otherwise if <code>lOverWrite</code> is false the new files are added to the <code>cFile</code>.</div>
+  <div><p>If <code>cPassword</code> is used, all files that are added to the archive are encrypted with the password.</div>
+  <div><p>If <code>lWithPath</code> is used, it tells  the path should also be stored with the file name. Default is false.</div>
+  <div><p>If <code>lWithDrive</code> is used, it tells thats the Drive and path should also be stored with the file name. Default is false.</div>
+  <div><p>If <code>pFileProgress</code> is used, a codeblock is evaluated, showing the total of that file has being processed. The codeblock must be defined as: <code>{| nPos, nTotal | GaugeUpdate( aGauge1, nPos / nTotal ) }</code></div>
 </div>
 <div class="d-d">Examples</div>
 <pre class="d-ex"><code class="language-c">IF hb_ZipFile( &quot;test.zip&quot;, &quot;test.prg&quot; )
@@ -343,7 +346,6 @@ aGauge := GaugeNew( 5, 5, 7, 40, &quot;W/B&quot;, &quot;W+/B&quot; , &quot;.&quo
 GaugeDisplay( aGauge )
 hb_ZipFile( &quot;test33.zip&quot;, aFiles, 9, {| cFile, nPos | GaugeUpdate( aGauge, nPos / nLen ) },, &quot;hello&quot; )
 RETURN
-
 </code></pre>
 <div class="d-d">Status</div>
 <div class="d-it">Ready</div>
@@ -358,44 +360,43 @@ RETURN
 </section>
 
 <section>
-<h4><a href="#hb_zipfilebypkspan" class="d-id" id="hb_zipfilebypkspan" title="∞"><code>hb_ZipFileByPKSpan()</code></a><a href="https://github.com/vszakats/harbour-core/blob/b2f34c1/contrib/hbziparc\ziparc.prg#L234" class="d-so" title="contrib/hbziparc\ziparc.prg">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=hb_ZipFileByPKSpan">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+hb_ZipFileByPKSpan">in Discussions</a></nav></nav></span>
-<span class="d-eb"><a href="#" title="Top" class="d-ebi">⌃</a> | <a href="index.html" title="Index" class="d-ebi">☰</a> | <a href="https://github.com/vszakats/harbour-core/edit/master/contrib\hbziparc\doc\en\ziparc.txt">Improve this doc</a></span></h4>
+<h4><a href="#hb_zipfilebypkspan" class="d-id" id="hb_zipfilebypkspan" title="∞"><code>hb_ZipFileByPKSpan()</code></a><a href="https://github.com/vszakats/harbour-core/blob/e4194ec/contrib/hbziparc/ziparc.prg#L234" class="d-so" title="contrib/hbziparc/ziparc.prg">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=hb_ZipFileByPKSpan">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+hb_ZipFileByPKSpan">in Discussions</a></nav></nav></span>
+<span class="d-eb"><a href="#" title="Top" class="d-ebi">⌃</a> | <a href="index.html" title="Index" class="d-ebi">☰</a> | <a href="https://github.com/vszakats/harbour-core/edit/master/contrib/hbziparc/doc/en/ziparc.txt">Improve this doc</a></span></h4>
 <div class="d-ol">Create a zip file on removable media</div>
 <div class="d-d">Syntax</div>
 <div class="d-sy d-sym">
 <pre><code>hb_ZipFileByPKSpan( &lt;cFile&gt;, &lt;cFileToCompress&gt; | &lt;aFiles&gt;, &lt;nLevel&gt;,
 &lt;bBlock&gt;, &lt;lOverWrite&gt;, &lt;cPassword&gt;, &lt;lWithPath&gt;, &lt;lWithDrive&gt;,
 &lt;pFileProgress&gt; ) → lCompress
-
 </code></pre>
 </div>
 <div class="d-d">Arguments</div>
 <div class="d-it">
-  <div><code>cFile</code>   Name of the zip file
-<code>cFileToCompress</code>  Name of a file to Compress, Drive and/or path can be used
-<em>or</em>
-<code>aFiles</code>  An array containing files to compress, Drive and/or path can be used
-<code>nLevel</code>  Compression level ranging from 0 to 9
-<code>bBlock</code>  Codeblock to execute while compressing
-<code>lOverWrite</code>  Toggle to overwrite the file if exists
-<code>cPassword</code> Password to encrypt the files
-<code>lWithPath</code> Toggle to store the path or not
-<code>lWithDrive</code> Toggle to store the Drive letter and path or not
-<code>pFileProgress</code> Codeblock for File Progress</div>
+  <div><code>cFile</code>   Name of the zip file</div>
+  <div><code>cFileToCompress</code>  Name of a file to Compress, Drive and/or path can be used</div>
+  <div><em>or</em></div>
+  <div><code>aFiles</code>  An array containing files to compress, Drive and/or path can be used</div>
+  <div><code>nLevel</code>  Compression level ranging from 0 to 9</div>
+  <div><code>bBlock</code>  Codeblock to execute while compressing</div>
+  <div><code>lOverWrite</code>  Toggle to overwrite the file if exists</div>
+  <div><code>cPassword</code> Password to encrypt the files</div>
+  <div><code>lWithPath</code> Toggle to store the path or not</div>
+  <div><code>lWithDrive</code> Toggle to store the Drive letter and path or not</div>
+  <div><code>pFileProgress</code> Codeblock for File Progress</div>
 </div>
 <div class="d-d">Returns</div>
 <div class="d-it"><code>lCompress</code>  <code>.T.</code> if file was create, otherwise <code>.F.</code></div>
 <div class="d-d">Description</div>
 <div class="d-it">
-  <div><p>This function creates a zip file named <code>cFile</code>. If the extension is omitted, .zip will be assumed. If the second parameter is a character string, this file will be added to the zip file. If the second parameter is an array, all file names contained in <code>aFiles</code> will be compressed.  Also, the use of this function is for creating backup in removable media like an floppy drive/zip drive.
-If <code>nLevel</code> is used, it determines the compression type where 0 means no compression and 9 means best compression.
-If <code>bBlock</code> is used, every time the file is opened to compress it will evaluate <code>bBlock</code>. Parameters of <code>bBlock</code> are <code>cFile</code> and <code>nPos</code>.
-If <code>lOverWrite</code> is used , it toggles to overwrite or not the existing file. Default is to overwrite the file, otherwise if <code>lOverWrite</code> is false the new files are added to the <code>cFile</code>.
-If <code>cPassword</code> is used, all files that are added to the archive are encrypted with the password.
-If <code>lWithPath</code> is used, it tells thats the path should also be stored with the file name. Default is false.
-If <code>lWithDrive</code> is used, it tells thats the Drive and path should also be stored with the file name. Default is false.
-If <code>pFileProgress</code> is used, a codeblock is evaluated, showing the total of that file has being processed. The codeblock must be defined as: <code>{| nPos, nTotal | GaugeUpdate( aGauge1, nPos / nTotal ) }</code>
-Before calling this function, Set an Changedisk codeblock by calling the <code><a href="#hb_setdiskzip">hb_SetDiskZip()</a></code>.</div>
+  <div><p>This function creates a zip file named <code>cFile</code>. If the extension is omitted, .zip will be assumed. If the second parameter is a character string, this file will be added to the zip file. If the second parameter is an array, all file names contained in <code>aFiles</code> will be compressed.  Also, the use of this function is for creating backup in removable media like an floppy drive/zip drive.</div>
+  <div><p>If <code>nLevel</code> is used, it determines the compression type where 0 means no compression and 9 means best compression.</div>
+  <div><p>If <code>bBlock</code> is used, every time the file is opened to compress it will evaluate <code>bBlock</code>. Parameters of <code>bBlock</code> are <code>cFile</code> and <code>nPos</code>.</div>
+  <div><p>If <code>lOverWrite</code> is used , it toggles to overwrite or not the existing file. Default is to overwrite the file, otherwise if <code>lOverWrite</code> is false the new files are added to the <code>cFile</code>.</div>
+  <div><p>If <code>cPassword</code> is used, all files that are added to the archive are encrypted with the password.</div>
+  <div><p>If <code>lWithPath</code> is used, it tells thats the path should also be stored with the file name. Default is false.</div>
+  <div><p>If <code>lWithDrive</code> is used, it tells thats the Drive and path should also be stored with the file name. Default is false.</div>
+  <div><p>If <code>pFileProgress</code> is used, a codeblock is evaluated, showing the total of that file has being processed. The codeblock must be defined as: <code>{| nPos, nTotal | GaugeUpdate( aGauge1, nPos / nTotal ) }</code></div>
+  <div><p>Before calling this function, Set an Changedisk codeblock by calling the <code><a href="#hb_setdiskzip">hb_SetDiskZip()</a></code>.</div>
 </div>
 <div class="d-d">Examples</div>
 <pre class="d-ex"><code class="language-c">hb_SetDiskZip( {| nDisk | Alert( &quot;Please insert disk no &quot; + hb_ntos( nDisk ) ) } )
@@ -418,7 +419,6 @@ aGauge := GaugeNew( 5, 5, 7, 40, &quot;W/B&quot;, &quot;W+/B&quot;, &quot;.&quot
 GaugeDisplay( aGauge )
 hb_ZipFileByPKSpan( &quot;test33.zip&quot;, aFiles, 9, {| cFile, nPos | GaugeUpdate( aGauge, nPos / nLen ) },, &quot;hello&quot; )
 RETURN
-
 </code></pre>
 <div class="d-d">Status</div>
 <div class="d-it">Ready</div>
@@ -433,43 +433,42 @@ RETURN
 </section>
 
 <section>
-<h4><a href="#hb_zipfilebytdspan" class="d-id" id="hb_zipfilebytdspan" title="∞"><code>hb_ZipFileByTDSpan()</code></a><a href="https://github.com/vszakats/harbour-core/blob/b2f34c1/contrib/hbziparc\ziparc.prg#L227" class="d-so" title="contrib/hbziparc\ziparc.prg">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=hb_ZipFileByTDSpan">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+hb_ZipFileByTDSpan">in Discussions</a></nav></nav></span>
-<span class="d-eb"><a href="#" title="Top" class="d-ebi">⌃</a> | <a href="index.html" title="Index" class="d-ebi">☰</a> | <a href="https://github.com/vszakats/harbour-core/edit/master/contrib\hbziparc\doc\en\ziparc.txt">Improve this doc</a></span></h4>
+<h4><a href="#hb_zipfilebytdspan" class="d-id" id="hb_zipfilebytdspan" title="∞"><code>hb_ZipFileByTDSpan()</code></a><a href="https://github.com/vszakats/harbour-core/blob/e4194ec/contrib/hbziparc/ziparc.prg#L227" class="d-so" title="contrib/hbziparc/ziparc.prg">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=hb_ZipFileByTDSpan">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+hb_ZipFileByTDSpan">in Discussions</a></nav></nav></span>
+<span class="d-eb"><a href="#" title="Top" class="d-ebi">⌃</a> | <a href="index.html" title="Index" class="d-ebi">☰</a> | <a href="https://github.com/vszakats/harbour-core/edit/master/contrib/hbziparc/doc/en/ziparc.txt">Improve this doc</a></span></h4>
 <div class="d-ol">Create a zip file</div>
 <div class="d-d">Syntax</div>
 <div class="d-sy d-sym">
 <pre><code>hb_ZipFileByTDSpan( &lt;cFile&gt;, &lt;cFileToCompress&gt; | &lt;aFiles&gt;, &lt;nLevel&gt;,
 &lt;bBlock&gt;, &lt;lOverWrite&gt;, &lt;cPassword&gt;, &lt;iSize&gt;, &lt;lWithPath&gt;, &lt;lWithDrive&gt;,
 &lt;pFileProgress&gt;) → lCompress
-
 </code></pre>
 </div>
 <div class="d-d">Arguments</div>
 <div class="d-it">
-  <div><code>cFile</code>   Name of the zip file
-<code>cFileToCompress</code>  Name of a file to Compress, Drive and/or path can be used
-<em>or</em>
-<code>aFiles</code>  An array containing files to compress, Drive and/or path can be used
-<code>nLevel</code>  Compression level ranging from 0 to 9
-<code>bBlock</code>  Codeblock to execute while compressing
-<code>lOverWrite</code>  Toggle to overwrite the file if exists
-<code>cPassword</code> Password to encrypt the files
-<code>iSize</code> Size of the archive, in bytes. Default is 1457664 bytes
-<code>lWithPath</code> Toggle to store the path or not
-<code>lWithDrive</code> Toggle to store the Drive letter and path or not
-<code>pFileProgress</code> Codeblock for File Progress</div>
+  <div><code>cFile</code>   Name of the zip file</div>
+  <div><code>cFileToCompress</code>  Name of a file to Compress, Drive and/or path can be used</div>
+  <div><em>or</em></div>
+  <div><code>aFiles</code>  An array containing files to compress, Drive and/or path can be used</div>
+  <div><code>nLevel</code>  Compression level ranging from 0 to 9</div>
+  <div><code>bBlock</code>  Codeblock to execute while compressing</div>
+  <div><code>lOverWrite</code>  Toggle to overwrite the file if exists</div>
+  <div><code>cPassword</code> Password to encrypt the files</div>
+  <div><code>iSize</code> Size of the archive, in bytes. Default is 1457664 bytes</div>
+  <div><code>lWithPath</code> Toggle to store the path or not</div>
+  <div><code>lWithDrive</code> Toggle to store the Drive letter and path or not</div>
+  <div><code>pFileProgress</code> Codeblock for File Progress</div>
 </div>
 <div class="d-d">Returns</div>
 <div class="d-it"><code>lCompress</code>  <code>.T.</code> if file was create, otherwise <code>.F.</code></div>
 <div class="d-d">Description</div>
 <div class="d-it">
-  <div><p>This function creates a zip file named <code>cFile</code>. If the extension is omitted, .zip will be assumed. If the second parameter is a character string, this file will be added to the zip file. If the second parameter is an array, all file names contained in <code>aFiles</code> will be compressed.
-If <code>nLevel</code> is used, it determines the compression type where 0 means no compression and 9 means best compression.
-If <code>bBlock</code> is used, every time the file is opened to compress it will evaluate <code>bBlock</code>. Parameters of <code>bBlock</code> are <code>cFile</code> and <code>nPos</code>.
-If <code>lOverWrite</code> is used, it toggles to overwrite or not the existing file. Default is to overwrite the file, otherwise if <code>lOverWrite</code> is false the new files are added to the <code>cFile</code>.
-If <code>lWithPath</code> is used, it tells thats the path should also be stored with the file name. Default is false.
-If <code>lWithDrive</code> is used, it tells thats the Drive and path should also be stored with the file name. Default is false.
-If <code>pFileProgress</code> is used, a codeblock is evaluated, <code>showing</code> the total of that file has being processed. The codeblock must be defined as: <code>{| nPos, nTotal | GaugeUpdate( aGauge1, nPos / nTotal ) }</code></div>
+  <div><p>This function creates a zip file named <code>cFile</code>. If the extension is omitted, .zip will be assumed. If the second parameter is a character string, this file will be added to the zip file. If the second parameter is an array, all file names contained in <code>aFiles</code> will be compressed.</div>
+  <div><p>If <code>nLevel</code> is used, it determines the compression type where 0 means no compression and 9 means best compression.</div>
+  <div><p>If <code>bBlock</code> is used, every time the file is opened to compress it will evaluate <code>bBlock</code>. Parameters of <code>bBlock</code> are <code>cFile</code> and <code>nPos</code>.</div>
+  <div><p>If <code>lOverWrite</code> is used, it toggles to overwrite or not the existing file. Default is to overwrite the file, otherwise if <code>lOverWrite</code> is false the new files are added to the <code>cFile</code>.</div>
+  <div><p>If <code>lWithPath</code> is used, it tells thats the path should also be stored with the file name. Default is false.</div>
+  <div><p>If <code>lWithDrive</code> is used, it tells thats the Drive and path should also be stored with the file name. Default is false.</div>
+  <div><p>If <code>pFileProgress</code> is used, a codeblock is evaluated, <code>showing</code> the total of that file has being processed. The codeblock must be defined as: <code>{| nPos, nTotal | GaugeUpdate( aGauge1, nPos / nTotal ) }</code></div>
 </div>
 <div class="d-d">Examples</div>
 <pre class="d-ex"><code class="language-c">IF hb_ZipFileByTDSpan( &quot;test.zip&quot;, &quot;test.prg&quot; )
@@ -490,7 +489,6 @@ aGauge := GaugeNew( 5, 5, 7, 40, &quot;W/B&quot;, &quot;W+/B&quot;, &quot;.&quot
 GaugeDisplay( aGauge )
 hb_ZipFileByTDSpan( &quot;test33.zip&quot;, aFiles, 9, {| cFile, nPos | GaugeUpdate( aGauge, nPos / nLen ) },, &quot;hello&quot;,, 6585452 )
 RETURN
-
 </code></pre>
 <div class="d-d">Status</div>
 <div class="d-it">Ready</div>
@@ -505,8 +503,8 @@ RETURN
 </section>
 
 <section>
-<h4><a href="#hb_ziptestpk" class="d-id" id="hb_ziptestpk" title="∞"><code>hb_ZipTestPK()</code></a><a href="https://github.com/vszakats/harbour-core/blob/b2f34c1/contrib/hbziparc\ziparc.prg#L189" class="d-so" title="contrib/hbziparc\ziparc.prg">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=hb_ZipTestPK">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+hb_ZipTestPK">in Discussions</a></nav></nav></span>
-<span class="d-eb"><a href="#" title="Top" class="d-ebi">⌃</a> | <a href="index.html" title="Index" class="d-ebi">☰</a> | <a href="https://github.com/vszakats/harbour-core/edit/master/contrib\hbziparc\doc\en\ziparc.txt">Improve this doc</a></span></h4>
+<h4><a href="#hb_ziptestpk" class="d-id" id="hb_ziptestpk" title="∞"><code>hb_ZipTestPK()</code></a><a href="https://github.com/vszakats/harbour-core/blob/e4194ec/contrib/hbziparc/ziparc.prg#L189" class="d-so" title="contrib/hbziparc/ziparc.prg">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=hb_ZipTestPK">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+hb_ZipTestPK">in Discussions</a></nav></nav></span>
+<span class="d-eb"><a href="#" title="Top" class="d-ebi">⌃</a> | <a href="index.html" title="Index" class="d-ebi">☰</a> | <a href="https://github.com/vszakats/harbour-core/edit/master/contrib/hbziparc/doc/en/ziparc.txt">Improve this doc</a></span></h4>
 <div class="d-ol">Test pkSpanned zip files</div>
 <div class="d-d">Syntax</div>
 <div class="d-sy"><pre><code>hb_ZipTestPK( &lt;cFile&gt; ) → nReturnCode</code></pre></div>
@@ -516,19 +514,18 @@ RETURN
 <div class="d-it"><code>nReturn</code> A code that tells if the current disk is the last of a pkSpanned disk set.</div>
 <div class="d-d">Description</div>
 <div class="d-it">
-  <div><p>This function tests if the disk inserted is the last disk of an backup set or not. It will return the follow return code when an error is found
-<span class="d-key">table</span>
-Error code     Meaning
-114            Incorrect Disk
-103            No Call back was set with <code>hb_ZipTestPK()</code>
-<code>/table</code>
-Call this function to determine if the disk inserted is the correct one before any other function.</div>
+  <div><p>This function tests if the disk inserted is the last disk of an backup set or not. It will return the follow return code when an error is found</div>
+  <div class="d-t d-t1">
+  <div>Error code     Meaning</div>
+  <div>114            Incorrect Disk</div>
+  <div>103            No Call back was set with hb_ZipTestPK()</div>
+</div>
+  <div><p>Call this function to determine if the disk inserted is the correct one before any other function.</div>
 </div>
 <div class="d-d">Examples</div>
 <pre class="d-ex"><code class="language-c">IF hb_ZipTestPK( &quot;test22.zip&quot; ) == 114
    ? &quot;Invalid Diskette&quot;
 ENDIF
-
 </code></pre>
 <div class="d-d">Status</div>
 <div class="d-it">Ready</div>
@@ -545,8 +542,8 @@ ENDIF
 </main>
 
 <footer>
-<div>Generated by hbdoc on 2017-02-14 15:14 UTC</div>
-<div>Based on revision <a href="https://github.com/vszakats/harbour-core/tree/b2f34c1">b2f34c1</a></div>
+<div>Generated by hbdoc on 2017-02-14 17:26 UTC</div>
+<div>Based on revision <a href="https://github.com/vszakats/harbour-core/tree/e4194ec">e4194ec</a></div>
 <div>Content processing, layout &amp; design © 2017 <a href="https://vszakats.net/harbour">vszakats</a></div>
 </footer>
 <script crossorigin="anonymous" src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/prism.min.js"></script>

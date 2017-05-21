@@ -77,7 +77,7 @@
 <main>
 
 <section>
-<h4><a href="#bin2u" class="d-id" id="bin2u" title="∞"><code>Bin2U()</code></a><a href="https://github.com/vszakats/harbour-core/blob/d194775/contrib/hbxpp/binnumx.c#L51" class="d-so" title="contrib/hbxpp/binnumx.c">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=Bin2U">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+Bin2U">in Discussions</a></nav></nav></span>
+<h4><a href="#bin2u" class="d-id" id="bin2u" title="∞"><code>Bin2U()</code></a><a href="https://github.com/vszakats/harbour-core/blob/aebd118/contrib/hbxpp/binnumx.c#L51" class="d-so" title="contrib/hbxpp/binnumx.c">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=Bin2U">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+Bin2U">in Discussions</a></nav></nav></span>
 <span class="d-eb"><a href="#" title="Top" class="d-ebi">⌃</a> | <a href="index.html" title="Index" class="d-ebi">☰</a> | <a href="https://github.com/vszakats/harbour-core/edit/master/contrib/hbxpp/doc/en/binnumx.txt">Improve this doc</a></span></h4>
 <div class="d-ol">Convert unsigned long encoded bytes into Harbour numeric</div>
 <div class="d-d">Syntax</div>
@@ -95,17 +95,15 @@
 <div class="d-d">Examples</div>
 <pre class="d-ex"><code class="language-c">// Show number of records in DBF
 #include &quot;fileio.ch&quot;
-PROCEDURE Main()
-   LOCAL hFile, cBuffer := Space( 4 )
-   IF ( hFile := hb_vfOpen( &quot;test.dbf&quot;, FO_READ ) ) != NIL
-      hb_vfSeek( hFile, 4 )
-      hb_vfRead( hFile, @cBuffer, hb_BLen( cBuffer ) )
-      ? &quot;Number of records in file:&quot;, Bin2U( cBuffer )
-      hb_vfClose( hFile )
-   ELSE
-      ? &quot;Cannot open file&quot;
-   ENDIF
-   RETURN
+LOCAL hFile, cBuffer := Space( 4 )
+IF ( hFile := hb_vfOpen( &quot;test.dbf&quot;, FO_READ ) ) != NIL
+   hb_vfSeek( hFile, 4 )
+   hb_vfRead( hFile, @cBuffer, hb_BLen( cBuffer ) )
+   ? &quot;Number of records in file:&quot;, Bin2U( cBuffer )
+   hb_vfClose( hFile )
+ELSE
+   ? &quot;Cannot open file&quot;
+ENDIF
 </code></pre>
 <div class="d-d">Status</div>
 <div class="d-it">Ready</div>
@@ -122,7 +120,7 @@ PROCEDURE Main()
 </section>
 
 <section>
-<h4><a href="#u2bin" class="d-id" id="u2bin" title="∞"><code>U2Bin()</code></a><a href="https://github.com/vszakats/harbour-core/blob/d194775/contrib/hbxpp/binnumx.c#L71" class="d-so" title="contrib/hbxpp/binnumx.c">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=U2Bin">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+U2Bin">in Discussions</a></nav></nav></span>
+<h4><a href="#u2bin" class="d-id" id="u2bin" title="∞"><code>U2Bin()</code></a><a href="https://github.com/vszakats/harbour-core/blob/aebd118/contrib/hbxpp/binnumx.c#L71" class="d-so" title="contrib/hbxpp/binnumx.c">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=U2Bin">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+U2Bin">in Discussions</a></nav></nav></span>
 <span class="d-eb"><a href="#" title="Top" class="d-ebi">⌃</a> | <a href="index.html" title="Index" class="d-ebi">☰</a> | <a href="https://github.com/vszakats/harbour-core/edit/master/contrib/hbxpp/doc/en/binnumx.txt">Improve this doc</a></span></h4>
 <div class="d-ol">Convert Harbour numeric into unsigned long encoded bytes</div>
 <div class="d-d">Syntax</div>
@@ -152,7 +150,7 @@ PROCEDURE Main()
 </section>
 
 <section>
-<h4><a href="#w2bin" class="d-id" id="w2bin" title="∞"><code>W2Bin()</code></a><a href="https://github.com/vszakats/harbour-core/blob/d194775/contrib/hbxpp/binnumx.c#L80" class="d-so" title="contrib/hbxpp/binnumx.c">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=W2Bin">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+W2Bin">in Discussions</a></nav></nav></span>
+<h4><a href="#w2bin" class="d-id" id="w2bin" title="∞"><code>W2Bin()</code></a><a href="https://github.com/vszakats/harbour-core/blob/aebd118/contrib/hbxpp/binnumx.c#L80" class="d-so" title="contrib/hbxpp/binnumx.c">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=W2Bin">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+W2Bin">in Discussions</a></nav></nav></span>
 <span class="d-eb"><a href="#" title="Top" class="d-ebi">⌃</a> | <a href="index.html" title="Index" class="d-ebi">☰</a> | <a href="https://github.com/vszakats/harbour-core/edit/master/contrib/hbxpp/doc/en/binnumx.txt">Improve this doc</a></span></h4>
 <div class="d-ol">Convert Harbour numeric into unsigned short encoded bytes</div>
 <div class="d-d">Syntax</div>
@@ -195,13 +193,12 @@ PROCEDURE Main()
 <div class="d-it"><code>dbSkipper()</code> is a helper function used in browse mechanism to skip a number of records while giving the caller indication about the actual records skipped.</div>
 <div class="d-d">Examples</div>
 <pre class="d-ex"><code class="language-c">// open a file and find if we've got enough records in it
-USE month_sales
+USE test
 IF dbSkipper( 100 ) == 100
    ? &quot;Good work! You can party now&quot;
 ELSE
    ? &quot;Too bad, you should really work harder&quot;
 ENDIF
-dbCloseArea()
 </code></pre>
 <div class="d-d">Status</div>
 <div class="d-it">Ready</div>
@@ -220,8 +217,8 @@ dbCloseArea()
 </main>
 
 <footer>
-<div>Generated by hbdoc on 2017-05-21 09:36 UTC</div>
-<div>Based on revision <a href="https://github.com/vszakats/harbour-core/tree/d194775">d194775</a></div>
+<div>Generated by hbdoc on 2017-05-21 22:46 UTC</div>
+<div>Based on revision <a href="https://github.com/vszakats/harbour-core/tree/aebd118">aebd118</a></div>
 <div>Content processing, layout &amp; design © 2017 <a href="https://vszakats.net/harbour">vszakats</a></div>
 </footer>
 <script crossorigin="anonymous" src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/prism.min.js" integrity="sha384-rYrm3wzug6YeKl/b+fTQ97I5TVSAs/vakIvEwzeyXUXS2SxYvgi7sBHZuV/UqZWf"></script>

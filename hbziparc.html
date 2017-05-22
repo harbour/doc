@@ -83,7 +83,7 @@
 <main>
 
 <section>
-<h4><a href="#hb_getzipcomment" class="d-id" id="hb_getzipcomment" title="∞"><code>hb_GetZipComment()</code></a><a href="https://github.com/vszakats/harbour-core/blob/b8eb271/contrib/hbziparc/ziparc.prg#L76" class="d-so" title="contrib/hbziparc/ziparc.prg">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=hb_GetZipComment">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+hb_GetZipComment">in Discussions</a></nav></nav></span>
+<h4><a href="#hb_getzipcomment" class="d-id" id="hb_getzipcomment" title="∞"><code>hb_GetZipComment()</code></a><a href="https://github.com/vszakats/harbour-core/blob/c6a141e/contrib/hbziparc/ziparc.prg#L76" class="d-so" title="contrib/hbziparc/ziparc.prg">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=hb_GetZipComment">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+hb_GetZipComment">in Discussions</a></nav></nav></span>
 <span class="d-eb"><a href="#" title="Top" class="d-ebi">⌃</a> | <a href="index.html" title="Index" class="d-ebi">☰</a> | <a href="https://github.com/vszakats/harbour-core/edit/master/contrib/hbziparc/doc/en/ziparc.txt">Improve this doc</a></span></h4>
 <div class="d-ol">Return the comment of an zip file</div>
 <div class="d-d">Syntax</div>
@@ -95,8 +95,8 @@
 <div class="d-d">Description</div>
 <div class="d-it">This function receives a valid zip file name as parameter, and returns the global comment stored within.</div>
 <div class="d-d">Examples</div>
-<pre class="d-ex"><code class="language-c">? &quot;The comment in test.zip is:&quot;, hb_GetZipComment( &quot;test.zip&quot; )
-</code></pre>
+<section class="d-ex"><div class="playground"><pre contenteditable="true" spellcheck="false"><code class="language-c">? &quot;The comment in test.zip is:&quot;, hb_GetZipComment( &quot;test.zip&quot; )
+</code></pre></div></section>
 <div class="d-d">Status</div>
 <div class="d-it">Ready</div>
 <div class="d-d">Compliance</div>
@@ -110,7 +110,7 @@
 </section>
 
 <section>
-<h4><a href="#hb_setbuffer" class="d-id" id="hb_setbuffer" title="∞"><code>hb_SetBuffer()</code></a><a href="https://github.com/vszakats/harbour-core/blob/b8eb271/contrib/hbziparc/ziparc.prg#L215" class="d-so" title="contrib/hbziparc/ziparc.prg">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=hb_SetBuffer">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+hb_SetBuffer">in Discussions</a></nav></nav></span>
+<h4><a href="#hb_setbuffer" class="d-id" id="hb_setbuffer" title="∞"><code>hb_SetBuffer()</code></a><a href="https://github.com/vszakats/harbour-core/blob/c6a141e/contrib/hbziparc/ziparc.prg#L215" class="d-so" title="contrib/hbziparc/ziparc.prg">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=hb_SetBuffer">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+hb_SetBuffer">in Discussions</a></nav></nav></span>
 <span class="d-eb"><a href="#" title="Top" class="d-ebi">⌃</a> | <a href="index.html" title="Index" class="d-ebi">☰</a> | <a href="https://github.com/vszakats/harbour-core/edit/master/contrib/hbziparc/doc/en/ziparc.txt">Improve this doc</a></span></h4>
 <div class="d-d">Syntax</div>
 <div class="d-sy"><pre><code>hb_SetBuffer( [&lt;nWriteBuffer&gt;], [&lt;nExtractBuffer&gt;], [&lt;nReadBuffer&gt;] ) → NIL</code></pre></div>
@@ -129,8 +129,8 @@
   <div><p>This function be called before any of the compression/decompression functions.</div>
 </div>
 <div class="d-d">Examples</div>
-<pre class="d-ex"><code class="language-c">hb_SetBuffer( 100000, 115214, 65242 )
-</code></pre>
+<section class="d-ex"><div class="playground"><pre contenteditable="true" spellcheck="false"><code class="language-c">hb_SetBuffer( 100000, 115214, 65242 )
+</code></pre></div></section>
 <div class="d-d">Status</div>
 <div class="d-it">Ready</div>
 <div class="d-d">Compliance</div>
@@ -144,7 +144,7 @@
 </section>
 
 <section>
-<h4><a href="#hb_setdiskzip" class="d-id" id="hb_setdiskzip" title="∞"><code>hb_SetDiskZip()</code></a><a href="https://github.com/vszakats/harbour-core/blob/b8eb271/contrib/hbziparc/ziparc.prg#L197" class="d-so" title="contrib/hbziparc/ziparc.prg">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=hb_SetDiskZip">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+hb_SetDiskZip">in Discussions</a></nav></nav></span>
+<h4><a href="#hb_setdiskzip" class="d-id" id="hb_setdiskzip" title="∞"><code>hb_SetDiskZip()</code></a><a href="https://github.com/vszakats/harbour-core/blob/c6a141e/contrib/hbziparc/ziparc.prg#L197" class="d-so" title="contrib/hbziparc/ziparc.prg">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=hb_SetDiskZip">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+hb_SetDiskZip">in Discussions</a></nav></nav></span>
 <span class="d-eb"><a href="#" title="Top" class="d-ebi">⌃</a> | <a href="index.html" title="Index" class="d-ebi">☰</a> | <a href="https://github.com/vszakats/harbour-core/edit/master/contrib/hbziparc/doc/en/ziparc.txt">Improve this doc</a></span></h4>
 <div class="d-ol">Set a codeblock for disk changes</div>
 <div class="d-d">Syntax</div>
@@ -159,8 +159,8 @@
   <div><p>Set this function before opening archives that are in removable media. This block will be released, when the caller finish it job.</div>
 </div>
 <div class="d-d">Examples</div>
-<pre class="d-ex"><code class="language-c">hb_SetDiskZip( {| nDisk | Alert( &quot;Please insert disk no &quot; + hb_ntos( nDisk ) ) } )
-</code></pre>
+<section class="d-ex"><div class="playground"><pre contenteditable="true" spellcheck="false"><code class="language-c">hb_SetDiskZip( {| nDisk | Alert( &quot;Please insert disk no &quot; + hb_ntos( nDisk ) ) } )
+</code></pre></div></section>
 <div class="d-d">Compliance</div>
 <div class="d-it">Harbour specific</div>
 <div class="d-d">Platforms</div>
@@ -172,7 +172,7 @@
 </section>
 
 <section>
-<h4><a href="#hb_setzipcomment" class="d-id" id="hb_setzipcomment" title="∞"><code>hb_SetZipComment()</code></a><a href="https://github.com/vszakats/harbour-core/blob/b8eb271/contrib/hbziparc/ziparc.prg#L68" class="d-so" title="contrib/hbziparc/ziparc.prg">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=hb_SetZipComment">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+hb_SetZipComment">in Discussions</a></nav></nav></span>
+<h4><a href="#hb_setzipcomment" class="d-id" id="hb_setzipcomment" title="∞"><code>hb_SetZipComment()</code></a><a href="https://github.com/vszakats/harbour-core/blob/c6a141e/contrib/hbziparc/ziparc.prg#L68" class="d-so" title="contrib/hbziparc/ziparc.prg">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=hb_SetZipComment">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+hb_SetZipComment">in Discussions</a></nav></nav></span>
 <span class="d-eb"><a href="#" title="Top" class="d-ebi">⌃</a> | <a href="index.html" title="Index" class="d-ebi">☰</a> | <a href="https://github.com/vszakats/harbour-core/edit/master/contrib/hbziparc/doc/en/ziparc.txt">Improve this doc</a></span></h4>
 <div class="d-ol">Set an Zip archive Comment</div>
 <div class="d-d">Syntax</div>
@@ -184,9 +184,9 @@
 <div class="d-d">Description</div>
 <div class="d-it">This function stored an global comment to an zip archive. It should be called before any of the compression functions.</div>
 <div class="d-d">Examples</div>
-<pre class="d-ex"><code class="language-c">? hb_SetZipComment( &quot;This is an Test&quot; )
+<section class="d-ex"><div class="playground"><pre contenteditable="true" spellcheck="false"><code class="language-c">? hb_SetZipComment( &quot;This is an Test&quot; )
 ? hb_ZipFile( &quot;test.zip&quot;, { &quot;test.xml&quot;, &quot;test.ini&quot; } )
-</code></pre>
+</code></pre></div></section>
 <div class="d-d">Status</div>
 <div class="d-it">Ready</div>
 <div class="d-d">Compliance</div>
@@ -200,7 +200,7 @@
 </section>
 
 <section>
-<h4><a href="#hb_unzipfile" class="d-id" id="hb_unzipfile" title="∞"><code>hb_UnzipFile()</code></a><a href="https://github.com/vszakats/harbour-core/blob/b8eb271/contrib/hbziparc/ziparc.prg#L389" class="d-so" title="contrib/hbziparc/ziparc.prg">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=hb_UnzipFile">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+hb_UnzipFile">in Discussions</a></nav></nav></span>
+<h4><a href="#hb_unzipfile" class="d-id" id="hb_unzipfile" title="∞"><code>hb_UnzipFile()</code></a><a href="https://github.com/vszakats/harbour-core/blob/c6a141e/contrib/hbziparc/ziparc.prg#L389" class="d-so" title="contrib/hbziparc/ziparc.prg">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=hb_UnzipFile">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+hb_UnzipFile">in Discussions</a></nav></nav></span>
 <span class="d-eb"><a href="#" title="Top" class="d-ebi">⌃</a> | <a href="index.html" title="Index" class="d-ebi">☰</a> | <a href="https://github.com/vszakats/harbour-core/edit/master/contrib/hbziparc/doc/en/ziparc.txt">Improve this doc</a></span></h4>
 <div class="d-ol">Unzip a compressed file</div>
 <div class="d-d">Syntax</div>
@@ -230,7 +230,7 @@
   <div><p>If <code>pFileProgress</code> is used, a codeblock is evaluated, showing the total of that file has being processed. The codeblock must be defined as: <code>{| nPos, nTotal | GaugeUpdate( aGauge1, nPos / nTotal ) }</code></div>
 </div>
 <div class="d-d">Examples</div>
-<pre class="d-ex"><code class="language-c">LOCAL aExtract := hb_GetFilesInZip( &quot;test.zip&quot; )  // extract all files in zip
+<section class="d-ex"><div class="playground"><pre contenteditable="true" spellcheck="false"><code class="language-c">LOCAL aExtract := hb_GetFilesInZip( &quot;test.zip&quot; )  // extract all files in zip
 
 IF hb_UnzipFile( &quot;test.zip&quot;,,,, hb_DirSepToOS( &quot;./&quot; ), aExtract )
    ? &quot;File was successfully extracted&quot;
@@ -240,7 +240,7 @@ aExtract := hb_GetFilesInZip( &quot;test2.zip&quot; )  // extract all files in z
 IF hb_UnzipFile( &quot;test2.zip&quot;, {| cFile | QOut( cFile ) },,, hb_DirSepToOS( &quot;./&quot; ), aExtract )
    ? &quot;File was successfully extracted&quot;
 ENDIF
-</code></pre>
+</code></pre></div></section>
 <div class="d-d">Status</div>
 <div class="d-it">Ready</div>
 <div class="d-d">Compliance</div>
@@ -254,7 +254,7 @@ ENDIF
 </section>
 
 <section>
-<h4><a href="#hb_zipdeletefiles" class="d-id" id="hb_zipdeletefiles" title="∞"><code>hb_ZipDeleteFiles()</code></a><a href="https://github.com/vszakats/harbour-core/blob/b8eb271/contrib/hbziparc/ziparc.prg#L488" class="d-so" title="contrib/hbziparc/ziparc.prg">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=hb_ZipDeleteFiles">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+hb_ZipDeleteFiles">in Discussions</a></nav></nav></span>
+<h4><a href="#hb_zipdeletefiles" class="d-id" id="hb_zipdeletefiles" title="∞"><code>hb_ZipDeleteFiles()</code></a><a href="https://github.com/vszakats/harbour-core/blob/c6a141e/contrib/hbziparc/ziparc.prg#L488" class="d-so" title="contrib/hbziparc/ziparc.prg">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=hb_ZipDeleteFiles">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+hb_ZipDeleteFiles">in Discussions</a></nav></nav></span>
 <span class="d-eb"><a href="#" title="Top" class="d-ebi">⌃</a> | <a href="index.html" title="Index" class="d-ebi">☰</a> | <a href="https://github.com/vszakats/harbour-core/edit/master/contrib/hbziparc/doc/en/ziparc.txt">Improve this doc</a></span></h4>
 <div class="d-ol">Delete files from an zip archive</div>
 <div class="d-d">Syntax</div>
@@ -273,8 +273,8 @@ ENDIF
 <div class="d-d">Description</div>
 <div class="d-it">This  function removes files from an Zip archive.</div>
 <div class="d-d">Examples</div>
-<pre class="d-ex"><code class="language-c">? &quot;has the file zipnew.i been deleted:&quot;, iif( hb_ZipDeleteFiles( &quot;test23.zip&quot;, &quot;zipnew.i&quot; ), &quot;Yes&quot;, &quot;No&quot; )
-</code></pre>
+<section class="d-ex"><div class="playground"><pre contenteditable="true" spellcheck="false"><code class="language-c">? &quot;has the file zipnew.i been deleted:&quot;, iif( hb_ZipDeleteFiles( &quot;test23.zip&quot;, &quot;zipnew.i&quot; ), &quot;Yes&quot;, &quot;No&quot; )
+</code></pre></div></section>
 <div class="d-d">Status</div>
 <div class="d-it">Ready</div>
 <div class="d-d">Compliance</div>
@@ -288,7 +288,7 @@ ENDIF
 </section>
 
 <section>
-<h4><a href="#hb_zipfile" class="d-id" id="hb_zipfile" title="∞"><code>hb_ZipFile()</code></a><a href="https://github.com/vszakats/harbour-core/blob/b8eb271/contrib/hbziparc/ziparc.prg#L237" class="d-so" title="contrib/hbziparc/ziparc.prg">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=hb_ZipFile">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+hb_ZipFile">in Discussions</a></nav></nav></span>
+<h4><a href="#hb_zipfile" class="d-id" id="hb_zipfile" title="∞"><code>hb_ZipFile()</code></a><a href="https://github.com/vszakats/harbour-core/blob/c6a141e/contrib/hbziparc/ziparc.prg#L237" class="d-so" title="contrib/hbziparc/ziparc.prg">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=hb_ZipFile">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+hb_ZipFile">in Discussions</a></nav></nav></span>
 <span class="d-eb"><a href="#" title="Top" class="d-ebi">⌃</a> | <a href="index.html" title="Index" class="d-ebi">☰</a> | <a href="https://github.com/vszakats/harbour-core/edit/master/contrib/hbziparc/doc/en/ziparc.txt">Improve this doc</a></span></h4>
 <div class="d-ol">Create a zip file</div>
 <div class="d-d">Syntax</div>
@@ -326,7 +326,7 @@ ENDIF
   <div><p>If <code>pFileProgress</code> is used, a codeblock is evaluated, showing the total of that file has being processed. The codeblock must be defined as: <code>{| nPos, nTotal | GaugeUpdate( aGauge1, nPos / nTotal ) }</code></div>
 </div>
 <div class="d-d">Examples</div>
-<pre class="d-ex"><code class="language-c">LOCAL aFiles, nLen, aGauge
+<section class="d-ex"><div class="playground"><pre contenteditable="true" spellcheck="false"><code class="language-c">LOCAL aFiles, nLen, aGauge
 
 IF hb_ZipFile( &quot;test.zip&quot;, &quot;test.prg&quot; )
    ? &quot;File was successfully created&quot;
@@ -343,7 +343,7 @@ ENDIF
 aFiles := { &quot;test.prg&quot;, &quot;test.hbp&quot; }
 nLen   := Len( aFiles )
 hb_ZipFile( &quot;test33.zip&quot;, aFiles, 9,,, &quot;hello&quot; )
-</code></pre>
+</code></pre></div></section>
 <div class="d-d">Status</div>
 <div class="d-it">Ready</div>
 <div class="d-d">Compliance</div>
@@ -357,7 +357,7 @@ hb_ZipFile( &quot;test33.zip&quot;, aFiles, 9,,, &quot;hello&quot; )
 </section>
 
 <section>
-<h4><a href="#hb_zipfilebypkspan" class="d-id" id="hb_zipfilebypkspan" title="∞"><code>hb_ZipFileByPKSpan()</code></a><a href="https://github.com/vszakats/harbour-core/blob/b8eb271/contrib/hbziparc/ziparc.prg#L234" class="d-so" title="contrib/hbziparc/ziparc.prg">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=hb_ZipFileByPKSpan">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+hb_ZipFileByPKSpan">in Discussions</a></nav></nav></span>
+<h4><a href="#hb_zipfilebypkspan" class="d-id" id="hb_zipfilebypkspan" title="∞"><code>hb_ZipFileByPKSpan()</code></a><a href="https://github.com/vszakats/harbour-core/blob/c6a141e/contrib/hbziparc/ziparc.prg#L234" class="d-so" title="contrib/hbziparc/ziparc.prg">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=hb_ZipFileByPKSpan">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+hb_ZipFileByPKSpan">in Discussions</a></nav></nav></span>
 <span class="d-eb"><a href="#" title="Top" class="d-ebi">⌃</a> | <a href="index.html" title="Index" class="d-ebi">☰</a> | <a href="https://github.com/vszakats/harbour-core/edit/master/contrib/hbziparc/doc/en/ziparc.txt">Improve this doc</a></span></h4>
 <div class="d-ol">Create a zip file on removable media</div>
 <div class="d-d">Syntax</div>
@@ -396,7 +396,7 @@ hb_ZipFile( &quot;test33.zip&quot;, aFiles, 9,,, &quot;hello&quot; )
   <div><p>Before calling this function, set a change-disk codeblock by calling the <code><a href="#hb_setdiskzip">hb_SetDiskZip()</a></code>.</div>
 </div>
 <div class="d-d">Examples</div>
-<pre class="d-ex"><code class="language-c">LOCAL aFiles, nLen, aGauge
+<section class="d-ex"><div class="playground"><pre contenteditable="true" spellcheck="false"><code class="language-c">LOCAL aFiles, nLen, aGauge
 
 hb_SetDiskZip( {| nDisk | Alert( &quot;Please insert disk no &quot; + hb_ntos( nDisk ) ) } )
 
@@ -415,7 +415,7 @@ ENDIF
 aFiles := { &quot;test.prg&quot;, &quot;test.hbp&quot; }
 nLen   := Len( aFiles )
 hb_ZipFileByPKSpan( &quot;test33.zip&quot;, aFiles, 9,,, &quot;hello&quot; )
-</code></pre>
+</code></pre></div></section>
 <div class="d-d">Status</div>
 <div class="d-it">Ready</div>
 <div class="d-d">Compliance</div>
@@ -429,7 +429,7 @@ hb_ZipFileByPKSpan( &quot;test33.zip&quot;, aFiles, 9,,, &quot;hello&quot; )
 </section>
 
 <section>
-<h4><a href="#hb_zipfilebytdspan" class="d-id" id="hb_zipfilebytdspan" title="∞"><code>hb_ZipFileByTDSpan()</code></a><a href="https://github.com/vszakats/harbour-core/blob/b8eb271/contrib/hbziparc/ziparc.prg#L227" class="d-so" title="contrib/hbziparc/ziparc.prg">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=hb_ZipFileByTDSpan">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+hb_ZipFileByTDSpan">in Discussions</a></nav></nav></span>
+<h4><a href="#hb_zipfilebytdspan" class="d-id" id="hb_zipfilebytdspan" title="∞"><code>hb_ZipFileByTDSpan()</code></a><a href="https://github.com/vszakats/harbour-core/blob/c6a141e/contrib/hbziparc/ziparc.prg#L227" class="d-so" title="contrib/hbziparc/ziparc.prg">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=hb_ZipFileByTDSpan">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+hb_ZipFileByTDSpan">in Discussions</a></nav></nav></span>
 <span class="d-eb"><a href="#" title="Top" class="d-ebi">⌃</a> | <a href="index.html" title="Index" class="d-ebi">☰</a> | <a href="https://github.com/vszakats/harbour-core/edit/master/contrib/hbziparc/doc/en/ziparc.txt">Improve this doc</a></span></h4>
 <div class="d-ol">Create a zip file</div>
 <div class="d-d">Syntax</div>
@@ -467,7 +467,7 @@ hb_ZipFileByPKSpan( &quot;test33.zip&quot;, aFiles, 9,,, &quot;hello&quot; )
   <div><p>If <code>pFileProgress</code> is used, a codeblock is evaluated, <code>showing</code> the total of that file has being processed. The codeblock must be defined as: <code>{| nPos, nTotal | GaugeUpdate( aGauge1, nPos / nTotal ) }</code></div>
 </div>
 <div class="d-d">Examples</div>
-<pre class="d-ex"><code class="language-c">LOCAL aFiles, nLen, aGauge
+<section class="d-ex"><div class="playground"><pre contenteditable="true" spellcheck="false"><code class="language-c">LOCAL aFiles, nLen, aGauge
 
 IF hb_ZipFileByTDSpan( &quot;test.zip&quot;, &quot;test.prg&quot; )
    ? &quot;File was successfully created&quot;
@@ -483,7 +483,7 @@ ENDIF
 
 aFiles := { &quot;test.prg&quot;, &quot;test.hbp&quot; }
 hb_ZipFileByTDSpan( &quot;test33.zip&quot;, aFiles, 9,,, &quot;hello&quot;,, 6585452 )
-</code></pre>
+</code></pre></div></section>
 <div class="d-d">Status</div>
 <div class="d-it">Ready</div>
 <div class="d-d">Compliance</div>
@@ -497,7 +497,7 @@ hb_ZipFileByTDSpan( &quot;test33.zip&quot;, aFiles, 9,,, &quot;hello&quot;,, 658
 </section>
 
 <section>
-<h4><a href="#hb_ziptestpk" class="d-id" id="hb_ziptestpk" title="∞"><code>hb_ZipTestPK()</code></a><a href="https://github.com/vszakats/harbour-core/blob/b8eb271/contrib/hbziparc/ziparc.prg#L189" class="d-so" title="contrib/hbziparc/ziparc.prg">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=hb_ZipTestPK">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+hb_ZipTestPK">in Discussions</a></nav></nav></span>
+<h4><a href="#hb_ziptestpk" class="d-id" id="hb_ziptestpk" title="∞"><code>hb_ZipTestPK()</code></a><a href="https://github.com/vszakats/harbour-core/blob/c6a141e/contrib/hbziparc/ziparc.prg#L189" class="d-so" title="contrib/hbziparc/ziparc.prg">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=hb_ZipTestPK">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+hb_ZipTestPK">in Discussions</a></nav></nav></span>
 <span class="d-eb"><a href="#" title="Top" class="d-ebi">⌃</a> | <a href="index.html" title="Index" class="d-ebi">☰</a> | <a href="https://github.com/vszakats/harbour-core/edit/master/contrib/hbziparc/doc/en/ziparc.txt">Improve this doc</a></span></h4>
 <div class="d-ol">Test pkSpanned zip files</div>
 <div class="d-d">Syntax</div>
@@ -517,10 +517,10 @@ hb_ZipFileByTDSpan( &quot;test33.zip&quot;, aFiles, 9,,, &quot;hello&quot;,, 658
   <div><p>Call this function to determine if the disk inserted is the correct one before any other function.</div>
 </div>
 <div class="d-d">Examples</div>
-<pre class="d-ex"><code class="language-c">IF hb_ZipTestPK( &quot;test22.zip&quot; ) == 114
+<section class="d-ex"><div class="playground"><pre contenteditable="true" spellcheck="false"><code class="language-c">IF hb_ZipTestPK( &quot;test22.zip&quot; ) == 114
    ? &quot;Invalid Diskette&quot;
 ENDIF
-</code></pre>
+</code></pre></div></section>
 <div class="d-d">Status</div>
 <div class="d-it">Ready</div>
 <div class="d-d">Compliance</div>
@@ -536,9 +536,39 @@ ENDIF
 </main>
 
 <footer>
-<div>Generated by hbdoc on 2017-05-22 21:17 UTC</div>
-<div>Based on revision <a href="https://github.com/vszakats/harbour-core/tree/b8eb271">b8eb271</a></div>
+<div>Generated by hbdoc on 2017-05-22 21:57 UTC</div>
+<div>Based on revision <a href="https://github.com/vszakats/harbour-core/tree/c6a141e">c6a141e</a></div>
 <div>Content processing, layout &amp; design © 2017 <a href="https://vszakats.net/harbour">vszakats</a></div>
 </footer>
 <script crossorigin="anonymous" src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/prism.min.js" integrity="sha384-rYrm3wzug6YeKl/b+fTQ97I5TVSAs/vakIvEwzeyXUXS2SxYvgi7sBHZuV/UqZWf"></script>
 <script crossorigin="anonymous" src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/components/prism-c.min.js" integrity="sha384-IDvyyshYqx4mSDbCy1jZXIyYtgY0TQ7yTX/qOQ93pN1I3ETUkZD9Nb5joIteiFIC"></script>
+<script crossorigin="anonymous" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha384-xBuQ/xzmlsLoJpyjoggmTEz8OWUFM0/RC5BsqQBDX2v5cMvDHcMakNTNrHIW2I5f"></script>
+<script crossorigin="anonymous" src="https://os.allcom.pl/harbour/static/playground-embed.js"></script>
+<script crossorigin="anonymous" src="https://os.allcom.pl/harbour/static/play.js"></script>
+<script>
+$(function() {
+
+  $('.playground > pre.numbers, .code > pre.numbers').each(function() {
+    var $spans = $(this).find('> span');
+
+    var max = 0;
+    $spans.each(function() {
+      var n = $(this).attr('num')*1;
+      if (n > max) max = n;
+    });
+    var width = 2;
+    while (max > 10) {
+      max = max / 10;
+      width++;
+    }
+
+    $spans.each(function() {
+      var n = $(this).attr('num')+' ';
+      while (n.length < width) n = ' '+n;
+      $('<span class="number">').text(n).insertBefore(this);
+    });
+  });
+
+  initPlayground(hbioTransport());
+});
+</script>

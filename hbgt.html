@@ -93,7 +93,7 @@
 <main>
 
 <section>
-<h4><a href="#gt_clrflag" class="d-id" id="gt_clrflag" title="∞"><code>gt_ClrFlag()</code></a><a href="https://github.com/vszakats/harbour-core/blob/b8eb271/contrib/hbgt/bitflags.c#L76" class="d-so" title="contrib/hbgt/bitflags.c">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=gt_ClrFlag">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+gt_ClrFlag">in Discussions</a></nav></nav></span>
+<h4><a href="#gt_clrflag" class="d-id" id="gt_clrflag" title="∞"><code>gt_ClrFlag()</code></a><a href="https://github.com/vszakats/harbour-core/blob/c6a141e/contrib/hbgt/bitflags.c#L76" class="d-so" title="contrib/hbgt/bitflags.c">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=gt_ClrFlag">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+gt_ClrFlag">in Discussions</a></nav></nav></span>
 <span class="d-eb"><a href="#" title="Top" class="d-ebi">⌃</a> | <a href="index.html" title="Index" class="d-ebi">☰</a> | <a href="https://github.com/vszakats/harbour-core/edit/master/contrib/hbgt/doc/en/hbgt.txt">Improve this doc</a></span></h4>
 <div class="d-ol">Set a number of flags to FALSE in a bit flag string.</div>
 <div class="d-d">Syntax</div>
@@ -109,7 +109,7 @@
 <div class="d-d">Description</div>
 <div class="d-it"><code>gt_ClrFlag()</code> is used to turn flags within the flag string off.</div>
 <div class="d-d">Examples</div>
-<pre class="d-ex"><code class="language-c">LOCAL cFlags := gt_NewFlag( 20 )  // Create a bit flag string for 20
+<section class="d-ex"><div class="playground"><pre contenteditable="true" spellcheck="false"><code class="language-c">LOCAL cFlags := gt_NewFlag( 20 )  // Create a bit flag string for 20
 // logical values.
 
 // Now, turn them all on.
@@ -123,7 +123,7 @@
 
 // And set flag 1 to false.
 ? hb_StrToHex( cFlags := gt_ClrFlag( cFlags ) )
-</code></pre>
+</code></pre></div></section>
 <div class="d-d">Platforms</div>
 <div class="d-it">Available on all platforms</div>
 <div class="d-d">Tag</div>
@@ -133,7 +133,7 @@
 </section>
 
 <section>
-<h4><a href="#gt_isflag" class="d-id" id="gt_isflag" title="∞"><code>gt_IsFlag()</code></a><a href="https://github.com/vszakats/harbour-core/blob/b8eb271/contrib/hbgt/bitflags.c#L109" class="d-so" title="contrib/hbgt/bitflags.c">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=gt_IsFlag">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+gt_IsFlag">in Discussions</a></nav></nav></span>
+<h4><a href="#gt_isflag" class="d-id" id="gt_isflag" title="∞"><code>gt_IsFlag()</code></a><a href="https://github.com/vszakats/harbour-core/blob/c6a141e/contrib/hbgt/bitflags.c#L109" class="d-so" title="contrib/hbgt/bitflags.c">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=gt_IsFlag">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+gt_IsFlag">in Discussions</a></nav></nav></span>
 <span class="d-eb"><a href="#" title="Top" class="d-ebi">⌃</a> | <a href="index.html" title="Index" class="d-ebi">☰</a> | <a href="https://github.com/vszakats/harbour-core/edit/master/contrib/hbgt/doc/en/hbgt.txt">Improve this doc</a></span></h4>
 <div class="d-ol">Test the setting of a flag in a bit flag string.</div>
 <div class="d-d">Syntax</div>
@@ -148,12 +148,12 @@
 <div class="d-d">Description</div>
 <div class="d-it"><code>gt_IsFlag()</code> is used to test the state of a flag with a bit flag string.</div>
 <div class="d-d">Examples</div>
-<pre class="d-ex"><code class="language-c">// Print the setting of the flags in a flag string called &lt;cDave&gt;
+<section class="d-ex"><div class="playground"><pre contenteditable="true" spellcheck="false"><code class="language-c">// Print the setting of the flags in a flag string called &lt;cDave&gt;
 LOCAL nFlag
 FOR nFlag := 1 TO hb_BLen( cDave ) * 8
    ? &quot;Flag number&quot;, nFlag, &quot;==&quot;, gt_IsFlag( cDave, nFlag )
 NEXT
-</code></pre>
+</code></pre></div></section>
 <div class="d-d">Platforms</div>
 <div class="d-it">Available on all platforms</div>
 <div class="d-d">Tag</div>
@@ -163,7 +163,7 @@ NEXT
 </section>
 
 <section>
-<h4><a href="#gt_newflag" class="d-id" id="gt_newflag" title="∞"><code>gt_NewFlag()</code></a><a href="https://github.com/vszakats/harbour-core/blob/b8eb271/contrib/hbgt/bitflags.c#L21" class="d-so" title="contrib/hbgt/bitflags.c">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=gt_NewFlag">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+gt_NewFlag">in Discussions</a></nav></nav></span>
+<h4><a href="#gt_newflag" class="d-id" id="gt_newflag" title="∞"><code>gt_NewFlag()</code></a><a href="https://github.com/vszakats/harbour-core/blob/c6a141e/contrib/hbgt/bitflags.c#L21" class="d-so" title="contrib/hbgt/bitflags.c">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=gt_NewFlag">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+gt_NewFlag">in Discussions</a></nav></nav></span>
 <span class="d-eb"><a href="#" title="Top" class="d-ebi">⌃</a> | <a href="index.html" title="Index" class="d-ebi">☰</a> | <a href="https://github.com/vszakats/harbour-core/edit/master/contrib/hbgt/doc/en/hbgt.txt">Improve this doc</a></span></h4>
 <div class="d-ol">Create a new bit flag string.</div>
 <div class="d-d">Syntax</div>
@@ -178,8 +178,8 @@ NEXT
   <div><p>To create a bit flag string you need to pass <code>gt_NewFlag()</code> a value that is equal to or greater than the number of flags required (you may want to allow for future expansion). Each character in the string returned from <code>gt_NewFlag()</code> will hold 8 logical values.</div>
 </div>
 <div class="d-d">Examples</div>
-<pre class="d-ex"><code class="language-c">? hb_StrToHex( gt_NewFlag( 20 ) )  // Create a bit flag string for 20 logical values.
-</code></pre>
+<section class="d-ex"><div class="playground"><pre contenteditable="true" spellcheck="false"><code class="language-c">? hb_StrToHex( gt_NewFlag( 20 ) )  // Create a bit flag string for 20 logical values.
+</code></pre></div></section>
 <div class="d-d">Platforms</div>
 <div class="d-it">Available on all platforms</div>
 <div class="d-d">Tag</div>
@@ -189,7 +189,7 @@ NEXT
 </section>
 
 <section>
-<h4><a href="#gt_setflag" class="d-id" id="gt_setflag" title="∞"><code>gt_SetFlag()</code></a><a href="https://github.com/vszakats/harbour-core/blob/b8eb271/contrib/hbgt/bitflags.c#L43" class="d-so" title="contrib/hbgt/bitflags.c">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=gt_SetFlag">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+gt_SetFlag">in Discussions</a></nav></nav></span>
+<h4><a href="#gt_setflag" class="d-id" id="gt_setflag" title="∞"><code>gt_SetFlag()</code></a><a href="https://github.com/vszakats/harbour-core/blob/c6a141e/contrib/hbgt/bitflags.c#L43" class="d-so" title="contrib/hbgt/bitflags.c">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=gt_SetFlag">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+gt_SetFlag">in Discussions</a></nav></nav></span>
 <span class="d-eb"><a href="#" title="Top" class="d-ebi">⌃</a> | <a href="index.html" title="Index" class="d-ebi">☰</a> | <a href="https://github.com/vszakats/harbour-core/edit/master/contrib/hbgt/doc/en/hbgt.txt">Improve this doc</a></span></h4>
 <div class="d-ol">Set a number of flags to TRUE in a bit flag string.</div>
 <div class="d-d">Syntax</div>
@@ -205,7 +205,7 @@ NEXT
 <div class="d-d">Description</div>
 <div class="d-it"><code>gt_SetFlag()</code> is used to turn flags within the flag string on.</div>
 <div class="d-d">Examples</div>
-<pre class="d-ex"><code class="language-c">LOCAL cFlags := gt_NewFlag( 20 )  // Create a bit flag string for 20
+<section class="d-ex"><div class="playground"><pre contenteditable="true" spellcheck="false"><code class="language-c">LOCAL cFlags := gt_NewFlag( 20 )  // Create a bit flag string for 20
 // logical values.
 
 // Now set flags 10 to 15 to true.
@@ -216,7 +216,7 @@ NEXT
 
 // And set flag 1 to true.
 ? hb_StrToHex( cFlags := gt_SetFlag( cFlags ) )
-</code></pre>
+</code></pre></div></section>
 <div class="d-d">Platforms</div>
 <div class="d-it">Available on all platforms</div>
 <div class="d-d">Tag</div>
@@ -226,7 +226,7 @@ NEXT
 </section>
 
 <section>
-<h4><a href="#gt_asciisum" class="d-id" id="gt_asciisum" title="∞"><code>gt_AsciiSum()</code></a><a href="https://github.com/vszakats/harbour-core/blob/b8eb271/contrib/hbgt/asciisgt.c#L10" class="d-so" title="contrib/hbgt/asciisgt.c">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=gt_AsciiSum">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+gt_AsciiSum">in Discussions</a></nav></nav></span>
+<h4><a href="#gt_asciisum" class="d-id" id="gt_asciisum" title="∞"><code>gt_AsciiSum()</code></a><a href="https://github.com/vszakats/harbour-core/blob/c6a141e/contrib/hbgt/asciisgt.c#L10" class="d-so" title="contrib/hbgt/asciisgt.c">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=gt_AsciiSum">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+gt_AsciiSum">in Discussions</a></nav></nav></span>
 <span class="d-eb"><a href="#" title="Top" class="d-ebi">⌃</a> | <a href="index.html" title="Index" class="d-ebi">☰</a> | <a href="https://github.com/vszakats/harbour-core/edit/master/contrib/hbgt/doc/en/hbgt.txt">Improve this doc</a></span></h4>
 <div class="d-ol">Sum the ASCII values in a string.</div>
 <div class="d-d">Syntax</div>
@@ -250,7 +250,7 @@ NEXT
 </section>
 
 <section>
-<h4><a href="#gt_ascpos" class="d-id" id="gt_ascpos" title="∞"><code>gt_AscPos()</code></a><a href="https://github.com/vszakats/harbour-core/blob/b8eb271/contrib/hbgt/ascposgt.c#L11" class="d-so" title="contrib/hbgt/ascposgt.c">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=gt_AscPos">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+gt_AscPos">in Discussions</a></nav></nav></span>
+<h4><a href="#gt_ascpos" class="d-id" id="gt_ascpos" title="∞"><code>gt_AscPos()</code></a><a href="https://github.com/vszakats/harbour-core/blob/c6a141e/contrib/hbgt/ascposgt.c#L11" class="d-so" title="contrib/hbgt/ascposgt.c">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=gt_AscPos">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+gt_AscPos">in Discussions</a></nav></nav></span>
 <span class="d-eb"><a href="#" title="Top" class="d-ebi">⌃</a> | <a href="index.html" title="Index" class="d-ebi">☰</a> | <a href="https://github.com/vszakats/harbour-core/edit/master/contrib/hbgt/doc/en/hbgt.txt">Improve this doc</a></span></h4>
 <div class="d-ol">Return the ASCII value of a specified character in a string</div>
 <div class="d-d">Syntax</div>
@@ -272,8 +272,8 @@ NEXT
   <div><p>This last behaviour is different to the Funcky function of the same name.  I changed the behaviour because some of the strings I process contain embedded <code>NUL</code>s.</div>
 </div>
 <div class="d-d">Examples</div>
-<pre class="d-ex"><code class="language-c">? hb_BChar( gt_AscPos( &quot;the cat sat on the mat&quot;, 3 ) )  // --&gt; &quot;e&quot;
-</code></pre>
+<section class="d-ex"><div class="playground"><pre contenteditable="true" spellcheck="false"><code class="language-c">? hb_BChar( gt_AscPos( &quot;the cat sat on the mat&quot;, 3 ) )  // --&gt; &quot;e&quot;
+</code></pre></div></section>
 <div class="d-d">Status</div>
 <div class="d-it">Ready</div>
 <div class="d-d">Compliance</div>
@@ -287,7 +287,7 @@ NEXT
 </section>
 
 <section>
-<h4><a href="#gt_atdiff" class="d-id" id="gt_atdiff" title="∞"><code>gt_AtDiff()</code></a><a href="https://github.com/vszakats/harbour-core/blob/b8eb271/contrib/hbgt/atdiff.c#L11" class="d-so" title="contrib/hbgt/atdiff.c">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=gt_AtDiff">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+gt_AtDiff">in Discussions</a></nav></nav></span>
+<h4><a href="#gt_atdiff" class="d-id" id="gt_atdiff" title="∞"><code>gt_AtDiff()</code></a><a href="https://github.com/vszakats/harbour-core/blob/c6a141e/contrib/hbgt/atdiff.c#L11" class="d-so" title="contrib/hbgt/atdiff.c">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=gt_AtDiff">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+gt_AtDiff">in Discussions</a></nav></nav></span>
 <span class="d-eb"><a href="#" title="Top" class="d-ebi">⌃</a> | <a href="index.html" title="Index" class="d-ebi">☰</a> | <a href="https://github.com/vszakats/harbour-core/edit/master/contrib/hbgt/doc/en/hbgt.txt">Improve this doc</a></span></h4>
 <div class="d-ol">Return the position where two strings begin to differ</div>
 <div class="d-d">Syntax</div>
@@ -306,9 +306,9 @@ NEXT
   <div><p>invalid parameters will return -1</div>
 </div>
 <div class="d-d">Examples</div>
-<pre class="d-ex"><code class="language-c">? gt_AtDiff( &quot;the cat&quot;, &quot;the rat&quot; )  // --&gt; 5
+<section class="d-ex"><div class="playground"><pre contenteditable="true" spellcheck="false"><code class="language-c">? gt_AtDiff( &quot;the cat&quot;, &quot;the rat&quot; )  // --&gt; 5
 ? gt_AtDiff( &quot;the cat&quot;, &quot;the &quot; )     // --&gt; 0
-</code></pre>
+</code></pre></div></section>
 <div class="d-d">Status</div>
 <div class="d-it">Ready</div>
 <div class="d-d">Compliance</div>
@@ -322,7 +322,7 @@ NEXT
 </section>
 
 <section>
-<h4><a href="#gt_chareven" class="d-id" id="gt_chareven" title="∞"><code>gt_CharEven()</code></a><a href="https://github.com/vszakats/harbour-core/blob/b8eb271/contrib/hbgt/chareven.c#L11" class="d-so" title="contrib/hbgt/chareven.c">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=gt_CharEven">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+gt_CharEven">in Discussions</a></nav></nav></span>
+<h4><a href="#gt_chareven" class="d-id" id="gt_chareven" title="∞"><code>gt_CharEven()</code></a><a href="https://github.com/vszakats/harbour-core/blob/c6a141e/contrib/hbgt/chareven.c#L11" class="d-so" title="contrib/hbgt/chareven.c">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=gt_CharEven">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+gt_CharEven">in Discussions</a></nav></nav></span>
 <span class="d-eb"><a href="#" title="Top" class="d-ebi">⌃</a> | <a href="index.html" title="Index" class="d-ebi">☰</a> | <a href="https://github.com/vszakats/harbour-core/edit/master/contrib/hbgt/doc/en/hbgt.txt">Improve this doc</a></span></h4>
 <div class="d-ol">Return a string of all the characters in even positions</div>
 <div class="d-d">Syntax</div>
@@ -338,8 +338,8 @@ NEXT
   <div><p>invalid parameters will return &quot;&quot;</div>
 </div>
 <div class="d-d">Examples</div>
-<pre class="d-ex"><code class="language-c">? gt_CharEven( &quot;abcdefghijklm&quot; )  // --&gt; &quot;bdfhjl&quot;
-</code></pre>
+<section class="d-ex"><div class="playground"><pre contenteditable="true" spellcheck="false"><code class="language-c">? gt_CharEven( &quot;abcdefghijklm&quot; )  // --&gt; &quot;bdfhjl&quot;
+</code></pre></div></section>
 <div class="d-d">Status</div>
 <div class="d-it">Ready</div>
 <div class="d-d">Compliance</div>
@@ -353,7 +353,7 @@ NEXT
 </section>
 
 <section>
-<h4><a href="#gt_charmix" class="d-id" id="gt_charmix" title="∞"><code>gt_CharMix()</code></a><a href="https://github.com/vszakats/harbour-core/blob/b8eb271/contrib/hbgt/charmixg.c#L11" class="d-so" title="contrib/hbgt/charmixg.c">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=gt_CharMix">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+gt_CharMix">in Discussions</a></nav></nav></span>
+<h4><a href="#gt_charmix" class="d-id" id="gt_charmix" title="∞"><code>gt_CharMix()</code></a><a href="https://github.com/vszakats/harbour-core/blob/c6a141e/contrib/hbgt/charmixg.c#L11" class="d-so" title="contrib/hbgt/charmixg.c">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=gt_CharMix">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+gt_CharMix">in Discussions</a></nav></nav></span>
 <span class="d-eb"><a href="#" title="Top" class="d-ebi">⌃</a> | <a href="index.html" title="Index" class="d-ebi">☰</a> | <a href="https://github.com/vszakats/harbour-core/edit/master/contrib/hbgt/doc/en/hbgt.txt">Improve this doc</a></span></h4>
 <div class="d-ol">Amalgamate two strings to form the return value</div>
 <div class="d-d">Syntax</div>
@@ -375,10 +375,10 @@ NEXT
   <div><p>invalid parameters will return &quot;&quot;</div>
 </div>
 <div class="d-d">Examples</div>
-<pre class="d-ex"><code class="language-c">? gt_CharMix( &quot;abc&quot;, &quot;123&quot; )    // --&gt; &quot;a1b2c3&quot;
+<section class="d-ex"><div class="playground"><pre contenteditable="true" spellcheck="false"><code class="language-c">? gt_CharMix( &quot;abc&quot;, &quot;123&quot; )    // --&gt; &quot;a1b2c3&quot;
 ? gt_CharMix( &quot;abcde&quot;, &quot;123&quot; )  // --&gt; &quot;a1b2c3de&quot;
 ? gt_CharMix( &quot;abc&quot;, &quot;12345&quot; )  // --&gt; &quot;a1b2c345&quot;
-</code></pre>
+</code></pre></div></section>
 <div class="d-d">Status</div>
 <div class="d-it">Ready</div>
 <div class="d-d">Compliance</div>
@@ -392,7 +392,7 @@ NEXT
 </section>
 
 <section>
-<h4><a href="#gt_charodd" class="d-id" id="gt_charodd" title="∞"><code>gt_CharOdd()</code></a><a href="https://github.com/vszakats/harbour-core/blob/b8eb271/contrib/hbgt/charodd.c#L11" class="d-so" title="contrib/hbgt/charodd.c">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=gt_CharOdd">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+gt_CharOdd">in Discussions</a></nav></nav></span>
+<h4><a href="#gt_charodd" class="d-id" id="gt_charodd" title="∞"><code>gt_CharOdd()</code></a><a href="https://github.com/vszakats/harbour-core/blob/c6a141e/contrib/hbgt/charodd.c#L11" class="d-so" title="contrib/hbgt/charodd.c">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=gt_CharOdd">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+gt_CharOdd">in Discussions</a></nav></nav></span>
 <span class="d-eb"><a href="#" title="Top" class="d-ebi">⌃</a> | <a href="index.html" title="Index" class="d-ebi">☰</a> | <a href="https://github.com/vszakats/harbour-core/edit/master/contrib/hbgt/doc/en/hbgt.txt">Improve this doc</a></span></h4>
 <div class="d-ol">Return a string of all the characters in odd positions</div>
 <div class="d-d">Syntax</div>
@@ -408,8 +408,8 @@ NEXT
   <div><p>invalid parameters will return &quot;&quot;</div>
 </div>
 <div class="d-d">Examples</div>
-<pre class="d-ex"><code class="language-c">? gt_CharOdd( &quot;abcdefghijklm&quot; )  // --&gt; &quot;acegikm&quot;
-</code></pre>
+<section class="d-ex"><div class="playground"><pre contenteditable="true" spellcheck="false"><code class="language-c">? gt_CharOdd( &quot;abcdefghijklm&quot; )  // --&gt; &quot;acegikm&quot;
+</code></pre></div></section>
 <div class="d-d">Status</div>
 <div class="d-it">Ready</div>
 <div class="d-d">Compliance</div>
@@ -423,7 +423,7 @@ NEXT
 </section>
 
 <section>
-<h4><a href="#gt_chrcount" class="d-id" id="gt_chrcount" title="∞"><code>gt_ChrCount()</code></a><a href="https://github.com/vszakats/harbour-core/blob/b8eb271/contrib/hbgt/chrcount.c#L11" class="d-so" title="contrib/hbgt/chrcount.c">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=gt_ChrCount">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+gt_ChrCount">in Discussions</a></nav></nav></span>
+<h4><a href="#gt_chrcount" class="d-id" id="gt_chrcount" title="∞"><code>gt_ChrCount()</code></a><a href="https://github.com/vszakats/harbour-core/blob/c6a141e/contrib/hbgt/chrcount.c#L11" class="d-so" title="contrib/hbgt/chrcount.c">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=gt_ChrCount">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+gt_ChrCount">in Discussions</a></nav></nav></span>
 <span class="d-eb"><a href="#" title="Top" class="d-ebi">⌃</a> | <a href="index.html" title="Index" class="d-ebi">☰</a> | <a href="https://github.com/vszakats/harbour-core/edit/master/contrib/hbgt/doc/en/hbgt.txt">Improve this doc</a></span></h4>
 <div class="d-ol">Count the number of times a character appears in a string</div>
 <div class="d-d">Syntax</div>
@@ -442,8 +442,8 @@ NEXT
   <div><p>invalid parameters will return -1</div>
 </div>
 <div class="d-d">Examples</div>
-<pre class="d-ex"><code class="language-c">? gt_ChrCount( &quot;t&quot;, &quot;the cat sat on the mat&quot; )  // --&gt; 4
-</code></pre>
+<section class="d-ex"><div class="playground"><pre contenteditable="true" spellcheck="false"><code class="language-c">? gt_ChrCount( &quot;t&quot;, &quot;the cat sat on the mat&quot; )  // --&gt; 4
+</code></pre></div></section>
 <div class="d-d">Status</div>
 <div class="d-it">Ready</div>
 <div class="d-d">Compliance</div>
@@ -457,7 +457,7 @@ NEXT
 </section>
 
 <section>
-<h4><a href="#gt_chrfirst" class="d-id" id="gt_chrfirst" title="∞"><code>gt_ChrFirst()</code></a><a href="https://github.com/vszakats/harbour-core/blob/b8eb271/contrib/hbgt/chrfirst.c#L11" class="d-so" title="contrib/hbgt/chrfirst.c">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=gt_ChrFirst">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+gt_ChrFirst">in Discussions</a></nav></nav></span>
+<h4><a href="#gt_chrfirst" class="d-id" id="gt_chrfirst" title="∞"><code>gt_ChrFirst()</code></a><a href="https://github.com/vszakats/harbour-core/blob/c6a141e/contrib/hbgt/chrfirst.c#L11" class="d-so" title="contrib/hbgt/chrfirst.c">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=gt_ChrFirst">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+gt_ChrFirst">in Discussions</a></nav></nav></span>
 <span class="d-eb"><a href="#" title="Top" class="d-ebi">⌃</a> | <a href="index.html" title="Index" class="d-ebi">☰</a> | <a href="https://github.com/vszakats/harbour-core/edit/master/contrib/hbgt/doc/en/hbgt.txt">Improve this doc</a></span></h4>
 <div class="d-ol">Find which character occurs first in a string</div>
 <div class="d-d">Syntax</div>
@@ -475,9 +475,9 @@ NEXT
 <div class="d-d">Description</div>
 <div class="d-it">Return the ASCII value of a character in <code>cChars</code> which appears first in <code>cStr</code>.</div>
 <div class="d-d">Examples</div>
-<pre class="d-ex"><code class="language-c">? hb_BChar( gt_ChrFirst( &quot;sa &quot;, &quot;This is a test&quot; ) )  // --&gt; &quot;s&quot;
+<section class="d-ex"><div class="playground"><pre contenteditable="true" spellcheck="false"><code class="language-c">? hb_BChar( gt_ChrFirst( &quot;sa &quot;, &quot;This is a test&quot; ) )  // --&gt; &quot;s&quot;
 ? hb_BChar( gt_ChrFirst( &quot;et&quot; , &quot;This is a test&quot; ) )  // --&gt; &quot;t&quot;
-</code></pre>
+</code></pre></div></section>
 <div class="d-d">Status</div>
 <div class="d-it">Ready</div>
 <div class="d-d">Compliance</div>
@@ -491,7 +491,7 @@ NEXT
 </section>
 
 <section>
-<h4><a href="#gt_chrtotal" class="d-id" id="gt_chrtotal" title="∞"><code>gt_ChrTotal()</code></a><a href="https://github.com/vszakats/harbour-core/blob/b8eb271/contrib/hbgt/chrtotal.c#L11" class="d-so" title="contrib/hbgt/chrtotal.c">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=gt_ChrTotal">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+gt_ChrTotal">in Discussions</a></nav></nav></span>
+<h4><a href="#gt_chrtotal" class="d-id" id="gt_chrtotal" title="∞"><code>gt_ChrTotal()</code></a><a href="https://github.com/vszakats/harbour-core/blob/c6a141e/contrib/hbgt/chrtotal.c#L11" class="d-so" title="contrib/hbgt/chrtotal.c">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=gt_ChrTotal">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+gt_ChrTotal">in Discussions</a></nav></nav></span>
 <span class="d-eb"><a href="#" title="Top" class="d-ebi">⌃</a> | <a href="index.html" title="Index" class="d-ebi">☰</a> | <a href="https://github.com/vszakats/harbour-core/edit/master/contrib/hbgt/doc/en/hbgt.txt">Improve this doc</a></span></h4>
 <div class="d-ol">Find number of times a set of characters appears in a string</div>
 <div class="d-d">Syntax</div>
@@ -513,11 +513,11 @@ NEXT
   <div><p>invalid parameters will return -1</div>
 </div>
 <div class="d-d">Examples</div>
-<pre class="d-ex"><code class="language-c">LOCAL cString := &quot;the cat sat on the mat&quot;
+<section class="d-ex"><div class="playground"><pre contenteditable="true" spellcheck="false"><code class="language-c">LOCAL cString := &quot;the cat sat on the mat&quot;
 
 ? gt_ChrTotal( &quot;tae&quot;, cString )  // --&gt; 10
 ? gt_ChrTotal( &quot;zqw&quot;, cString )  // --&gt; 0
-</code></pre>
+</code></pre></div></section>
 <div class="d-d">Status</div>
 <div class="d-it">Ready</div>
 <div class="d-d">Compliance</div>
@@ -531,7 +531,7 @@ NEXT
 </section>
 
 <section>
-<h4><a href="#gt_strcount" class="d-id" id="gt_strcount" title="∞"><code>gt_StrCount()</code></a><a href="https://github.com/vszakats/harbour-core/blob/b8eb271/contrib/hbgt/strcount.c#L11" class="d-so" title="contrib/hbgt/strcount.c">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=gt_StrCount">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+gt_StrCount">in Discussions</a></nav></nav></span>
+<h4><a href="#gt_strcount" class="d-id" id="gt_strcount" title="∞"><code>gt_StrCount()</code></a><a href="https://github.com/vszakats/harbour-core/blob/c6a141e/contrib/hbgt/strcount.c#L11" class="d-so" title="contrib/hbgt/strcount.c">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=gt_StrCount">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+gt_StrCount">in Discussions</a></nav></nav></span>
 <span class="d-eb"><a href="#" title="Top" class="d-ebi">⌃</a> | <a href="index.html" title="Index" class="d-ebi">☰</a> | <a href="https://github.com/vszakats/harbour-core/edit/master/contrib/hbgt/doc/en/hbgt.txt">Improve this doc</a></span></h4>
 <div class="d-ol">Count the number of times a substring appears in a string</div>
 <div class="d-d">Syntax</div>
@@ -550,8 +550,8 @@ NEXT
   <div><p>invalid parameters will return -1</div>
 </div>
 <div class="d-d">Examples</div>
-<pre class="d-ex"><code class="language-c">? gt_StrCount( &quot;the&quot;, &quot;the cat sat on the mat&quot; )  // --&gt; 2
-</code></pre>
+<section class="d-ex"><div class="playground"><pre contenteditable="true" spellcheck="false"><code class="language-c">? gt_StrCount( &quot;the&quot;, &quot;the cat sat on the mat&quot; )  // --&gt; 2
+</code></pre></div></section>
 <div class="d-d">Status</div>
 <div class="d-it">Ready</div>
 <div class="d-d">Compliance</div>
@@ -565,7 +565,7 @@ NEXT
 </section>
 
 <section>
-<h4><a href="#gt_strcspn" class="d-id" id="gt_strcspn" title="∞"><code>gt_StrCSPN()</code></a><a href="https://github.com/vszakats/harbour-core/blob/b8eb271/contrib/hbgt/strcspn.c#L11" class="d-so" title="contrib/hbgt/strcspn.c">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=gt_StrCSPN">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+gt_StrCSPN">in Discussions</a></nav></nav></span>
+<h4><a href="#gt_strcspn" class="d-id" id="gt_strcspn" title="∞"><code>gt_StrCSPN()</code></a><a href="https://github.com/vszakats/harbour-core/blob/c6a141e/contrib/hbgt/strcspn.c#L11" class="d-so" title="contrib/hbgt/strcspn.c">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=gt_StrCSPN">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+gt_StrCSPN">in Discussions</a></nav></nav></span>
 <span class="d-eb"><a href="#" title="Top" class="d-ebi">⌃</a> | <a href="index.html" title="Index" class="d-ebi">☰</a> | <a href="https://github.com/vszakats/harbour-core/edit/master/contrib/hbgt/doc/en/hbgt.txt">Improve this doc</a></span></h4>
 <div class="d-ol">Return length of prefix in string of chars NOT in set.</div>
 <div class="d-d">Syntax</div>
@@ -580,9 +580,9 @@ NEXT
 <div class="d-d">Description</div>
 <div class="d-it">Return the number of characters in the leading segment of a string that consists solely of characters NOT in the set.</div>
 <div class="d-d">Examples</div>
-<pre class="d-ex"><code class="language-c">? gt_StrCSPN( &quot;this is a test&quot;, &quot;as &quot; )     // --&gt; 3
+<section class="d-ex"><div class="playground"><pre contenteditable="true" spellcheck="false"><code class="language-c">? gt_StrCSPN( &quot;this is a test&quot;, &quot;as &quot; )     // --&gt; 3
 ? gt_StrCSPN( &quot;this is a test&quot;, &quot;elnjpq&quot; )  // --&gt; 11
-</code></pre>
+</code></pre></div></section>
 <div class="d-d">Status</div>
 <div class="d-it">Ready</div>
 <div class="d-d">Compliance</div>
@@ -596,7 +596,7 @@ NEXT
 </section>
 
 <section>
-<h4><a href="#gt_strdiff" class="d-id" id="gt_strdiff" title="∞"><code>gt_StrDiff()</code></a><a href="https://github.com/vszakats/harbour-core/blob/b8eb271/contrib/hbgt/strdiffg.c#L11" class="d-so" title="contrib/hbgt/strdiffg.c">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=gt_StrDiff">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+gt_StrDiff">in Discussions</a></nav></nav></span>
+<h4><a href="#gt_strdiff" class="d-id" id="gt_strdiff" title="∞"><code>gt_StrDiff()</code></a><a href="https://github.com/vszakats/harbour-core/blob/c6a141e/contrib/hbgt/strdiffg.c#L11" class="d-so" title="contrib/hbgt/strdiffg.c">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=gt_StrDiff">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+gt_StrDiff">in Discussions</a></nav></nav></span>
 <span class="d-eb"><a href="#" title="Top" class="d-ebi">⌃</a> | <a href="index.html" title="Index" class="d-ebi">☰</a> | <a href="https://github.com/vszakats/harbour-core/edit/master/contrib/hbgt/doc/en/hbgt.txt">Improve this doc</a></span></h4>
 <div class="d-ol">Return a string where it begins to differ from another</div>
 <div class="d-d">Syntax</div>
@@ -618,9 +618,9 @@ NEXT
   <div><p>invalid parameters will return &quot;&quot;</div>
 </div>
 <div class="d-d">Examples</div>
-<pre class="d-ex"><code class="language-c">? gt_StrDiff( &quot;the cat&quot;, &quot;the rat&quot; )  // --&gt; &quot;rat&quot;
+<section class="d-ex"><div class="playground"><pre contenteditable="true" spellcheck="false"><code class="language-c">? gt_StrDiff( &quot;the cat&quot;, &quot;the rat&quot; )  // --&gt; &quot;rat&quot;
 ? gt_StrDiff( &quot;the cat&quot;, &quot;the &quot; )     // --&gt; &quot;&quot;
-</code></pre>
+</code></pre></div></section>
 <div class="d-d">Status</div>
 <div class="d-it">Ready</div>
 <div class="d-d">Compliance</div>
@@ -634,7 +634,7 @@ NEXT
 </section>
 
 <section>
-<h4><a href="#gt_strexpand" class="d-id" id="gt_strexpand" title="∞"><code>gt_StrExpand()</code></a><a href="https://github.com/vszakats/harbour-core/blob/b8eb271/contrib/hbgt/strexpan.c#L11" class="d-so" title="contrib/hbgt/strexpan.c">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=gt_StrExpand">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+gt_StrExpand">in Discussions</a></nav></nav></span>
+<h4><a href="#gt_strexpand" class="d-id" id="gt_strexpand" title="∞"><code>gt_StrExpand()</code></a><a href="https://github.com/vszakats/harbour-core/blob/c6a141e/contrib/hbgt/strexpan.c#L11" class="d-so" title="contrib/hbgt/strexpan.c">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=gt_StrExpand">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+gt_StrExpand">in Discussions</a></nav></nav></span>
 <span class="d-eb"><a href="#" title="Top" class="d-ebi">⌃</a> | <a href="index.html" title="Index" class="d-ebi">☰</a> | <a href="https://github.com/vszakats/harbour-core/edit/master/contrib/hbgt/doc/en/hbgt.txt">Improve this doc</a></span></h4>
 <div class="d-ol">Insert fillers between characters in a passed string</div>
 <div class="d-d">Syntax</div>
@@ -657,10 +657,10 @@ NEXT
   <div><p>invalid parameters will return &quot;&quot;</div>
 </div>
 <div class="d-d">Examples</div>
-<pre class="d-ex"><code class="language-c">? gt_StrExpand( &quot;abc&quot; )          // --&gt; &quot;a b c&quot;
+<section class="d-ex"><div class="playground"><pre contenteditable="true" spellcheck="false"><code class="language-c">? gt_StrExpand( &quot;abc&quot; )          // --&gt; &quot;a b c&quot;
 ? gt_StrExpand( &quot;abc&quot;, 2 )       // --&gt; &quot;a  b  c&quot;
 ? gt_StrExpand( &quot;abc&quot;, 2, '|' )  // --&gt; &quot;a||b||c&quot;
-</code></pre>
+</code></pre></div></section>
 <div class="d-d">Status</div>
 <div class="d-it">Ready</div>
 <div class="d-d">Compliance</div>
@@ -674,7 +674,7 @@ NEXT
 </section>
 
 <section>
-<h4><a href="#gt_strleft" class="d-id" id="gt_strleft" title="∞"><code>gt_StrLeft()</code></a><a href="https://github.com/vszakats/harbour-core/blob/b8eb271/contrib/hbgt/strleft.c#L11" class="d-so" title="contrib/hbgt/strleft.c">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=gt_StrLeft">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+gt_StrLeft">in Discussions</a></nav></nav></span>
+<h4><a href="#gt_strleft" class="d-id" id="gt_strleft" title="∞"><code>gt_StrLeft()</code></a><a href="https://github.com/vszakats/harbour-core/blob/c6a141e/contrib/hbgt/strleft.c#L11" class="d-so" title="contrib/hbgt/strleft.c">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=gt_StrLeft">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+gt_StrLeft">in Discussions</a></nav></nav></span>
 <span class="d-eb"><a href="#" title="Top" class="d-ebi">⌃</a> | <a href="index.html" title="Index" class="d-ebi">☰</a> | <a href="https://github.com/vszakats/harbour-core/edit/master/contrib/hbgt/doc/en/hbgt.txt">Improve this doc</a></span></h4>
 <div class="d-ol">Find length of prefix of a string</div>
 <div class="d-d">Syntax</div>
@@ -692,10 +692,10 @@ NEXT
   <div><p>If no characters in the the search set are found, the function shall return 0</div>
 </div>
 <div class="d-d">Examples</div>
-<pre class="d-ex"><code class="language-c">? gt_StrLeft( &quot;this is a test&quot;, &quot;hsit &quot; )  // --&gt; 8
+<section class="d-ex"><div class="playground"><pre contenteditable="true" spellcheck="false"><code class="language-c">? gt_StrLeft( &quot;this is a test&quot;, &quot;hsit &quot; )  // --&gt; 8
 ? gt_StrLeft( &quot;this is a test&quot;, &quot;hit a&quot; )  // --&gt; 3
 ? gt_StrLeft( &quot;this is a test&quot;, &quot;zxy&quot; )    // --&gt; 0
-</code></pre>
+</code></pre></div></section>
 <div class="d-d">Status</div>
 <div class="d-it">Ready</div>
 <div class="d-d">Compliance</div>
@@ -709,7 +709,7 @@ NEXT
 </section>
 
 <section>
-<h4><a href="#gt_strpbrk" class="d-id" id="gt_strpbrk" title="∞"><code>gt_StrPBRK()</code></a><a href="https://github.com/vszakats/harbour-core/blob/b8eb271/contrib/hbgt/strpbrk.c#L11" class="d-so" title="contrib/hbgt/strpbrk.c">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=gt_StrPBRK">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+gt_StrPBRK">in Discussions</a></nav></nav></span>
+<h4><a href="#gt_strpbrk" class="d-id" id="gt_strpbrk" title="∞"><code>gt_StrPBRK()</code></a><a href="https://github.com/vszakats/harbour-core/blob/c6a141e/contrib/hbgt/strpbrk.c#L11" class="d-so" title="contrib/hbgt/strpbrk.c">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=gt_StrPBRK">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+gt_StrPBRK">in Discussions</a></nav></nav></span>
 <span class="d-eb"><a href="#" title="Top" class="d-ebi">⌃</a> | <a href="index.html" title="Index" class="d-ebi">☰</a> | <a href="https://github.com/vszakats/harbour-core/edit/master/contrib/hbgt/doc/en/hbgt.txt">Improve this doc</a></span></h4>
 <div class="d-ol">Return string after 1st char from a set</div>
 <div class="d-d">Syntax</div>
@@ -727,9 +727,9 @@ NEXT
 <div class="d-d">Description</div>
 <div class="d-it">Return a string after the first occurrence of any character from the input set <code>cSet</code>.</div>
 <div class="d-d">Examples</div>
-<pre class="d-ex"><code class="language-c">? gt_StrPBRK( &quot;This is a test&quot;, &quot;sa &quot; )  // --&gt; &quot;s is a test&quot;
+<section class="d-ex"><div class="playground"><pre contenteditable="true" spellcheck="false"><code class="language-c">? gt_StrPBRK( &quot;This is a test&quot;, &quot;sa &quot; )  // --&gt; &quot;s is a test&quot;
 ? gt_StrPBRK( &quot;This is a test&quot;, &quot;et&quot; )   // --&gt; &quot;test&quot;
-</code></pre>
+</code></pre></div></section>
 <div class="d-d">Status</div>
 <div class="d-it">Ready</div>
 <div class="d-d">Compliance</div>
@@ -743,7 +743,7 @@ NEXT
 </section>
 
 <section>
-<h4><a href="#gt_strright" class="d-id" id="gt_strright" title="∞"><code>gt_StrRight()</code></a><a href="https://github.com/vszakats/harbour-core/blob/b8eb271/contrib/hbgt/strright.c#L11" class="d-so" title="contrib/hbgt/strright.c">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=gt_StrRight">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+gt_StrRight">in Discussions</a></nav></nav></span>
+<h4><a href="#gt_strright" class="d-id" id="gt_strright" title="∞"><code>gt_StrRight()</code></a><a href="https://github.com/vszakats/harbour-core/blob/c6a141e/contrib/hbgt/strright.c#L11" class="d-so" title="contrib/hbgt/strright.c">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=gt_StrRight">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+gt_StrRight">in Discussions</a></nav></nav></span>
 <span class="d-eb"><a href="#" title="Top" class="d-ebi">⌃</a> | <a href="index.html" title="Index" class="d-ebi">☰</a> | <a href="https://github.com/vszakats/harbour-core/edit/master/contrib/hbgt/doc/en/hbgt.txt">Improve this doc</a></span></h4>
 <div class="d-ol">Find length of a suffix of a string</div>
 <div class="d-d">Syntax</div>
@@ -761,10 +761,10 @@ NEXT
   <div><p>If no characters in the the search set are found, the function shall return 0</div>
 </div>
 <div class="d-d">Examples</div>
-<pre class="d-ex"><code class="language-c">? gt_StrRight( &quot;this is a test&quot;, &quot;teas &quot; )  // --&gt; 8
+<section class="d-ex"><div class="playground"><pre contenteditable="true" spellcheck="false"><code class="language-c">? gt_StrRight( &quot;this is a test&quot;, &quot;teas &quot; )  // --&gt; 8
 ? gt_StrRight( &quot;this is a test&quot;, &quot;tes h&quot; )  // --&gt; 5
 ? gt_StrRight( &quot;this is a test&quot;, &quot;zxy&quot; )    // --&gt; 0
-</code></pre>
+</code></pre></div></section>
 <div class="d-d">Status</div>
 <div class="d-it">Ready</div>
 <div class="d-d">Compliance</div>
@@ -780,9 +780,39 @@ NEXT
 </main>
 
 <footer>
-<div>Generated by hbdoc on 2017-05-22 21:17 UTC</div>
-<div>Based on revision <a href="https://github.com/vszakats/harbour-core/tree/b8eb271">b8eb271</a></div>
+<div>Generated by hbdoc on 2017-05-22 21:57 UTC</div>
+<div>Based on revision <a href="https://github.com/vszakats/harbour-core/tree/c6a141e">c6a141e</a></div>
 <div>Content processing, layout &amp; design © 2017 <a href="https://vszakats.net/harbour">vszakats</a></div>
 </footer>
 <script crossorigin="anonymous" src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/prism.min.js" integrity="sha384-rYrm3wzug6YeKl/b+fTQ97I5TVSAs/vakIvEwzeyXUXS2SxYvgi7sBHZuV/UqZWf"></script>
 <script crossorigin="anonymous" src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/components/prism-c.min.js" integrity="sha384-IDvyyshYqx4mSDbCy1jZXIyYtgY0TQ7yTX/qOQ93pN1I3ETUkZD9Nb5joIteiFIC"></script>
+<script crossorigin="anonymous" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha384-xBuQ/xzmlsLoJpyjoggmTEz8OWUFM0/RC5BsqQBDX2v5cMvDHcMakNTNrHIW2I5f"></script>
+<script crossorigin="anonymous" src="https://os.allcom.pl/harbour/static/playground-embed.js"></script>
+<script crossorigin="anonymous" src="https://os.allcom.pl/harbour/static/play.js"></script>
+<script>
+$(function() {
+
+  $('.playground > pre.numbers, .code > pre.numbers').each(function() {
+    var $spans = $(this).find('> span');
+
+    var max = 0;
+    $spans.each(function() {
+      var n = $(this).attr('num')*1;
+      if (n > max) max = n;
+    });
+    var width = 2;
+    while (max > 10) {
+      max = max / 10;
+      width++;
+    }
+
+    $spans.each(function() {
+      var n = $(this).attr('num')+' ';
+      while (n.length < width) n = ' '+n;
+      $('<span class="number">').text(n).insertBefore(this);
+    });
+  });
+
+  initPlayground(hbioTransport());
+});
+</script>

@@ -78,7 +78,7 @@
 <main>
 
 <section>
-<h4><a href="#bin2u" class="d-id" id="bin2u" title="∞"><code>Bin2U()</code></a><a href="https://github.com/vszakats/harbour-core/blob/8795bf4/contrib/hbxpp/binnumx.c#L51" class="d-so" title="contrib/hbxpp/binnumx.c">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=Bin2U">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+Bin2U">in Discussions</a></nav></nav></span>
+<h4><a href="#bin2u" class="d-id" id="bin2u" title="∞"><code>Bin2U()</code></a><a href="https://github.com/vszakats/harbour-core/blob/dae1a86/contrib/hbxpp/binnumx.c#L51" class="d-so" title="contrib/hbxpp/binnumx.c">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=Bin2U">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+Bin2U">in Discussions</a></nav></nav></span>
 <span class="d-eb"><a href="#" title="Top" class="d-ebi">⌃</a> | <a href="index.html" title="Index" class="d-ebi">☰</a> | <a href="https://github.com/vszakats/harbour-core/edit/master/contrib/hbxpp/doc/en/binnumx.txt">Improve this doc</a></span></h4>
 <div class="d-ol">Convert unsigned long encoded bytes into Harbour numeric</div>
 <div class="d-d">Syntax</div>
@@ -89,7 +89,7 @@
 <div class="d-it"><code>Bin2U()</code> return numeric integer (or 0 if <code>cBuffer</code> is not a string).</div>
 <div class="d-d">Description</div>
 <div class="d-it">
-  <div><p><code>Bin2U()</code> is one of the low level binary conversion functions, those functions convert between Harbour numeric and a character representation of numeric value. <code>Bin2U()</code> take four bytes of encoded 32-bit unsigned long integer and convert it into standard Harbour numeric value.</div>
+  <div><p><code>Bin2U()</code> is one of the low-level binary conversion functions, those functions convert between Harbour numeric and a character representation of numeric value. <code>Bin2U()</code> take four bytes of encoded 32-bit unsigned long integer and convert it into standard Harbour numeric value.</div>
   <div><p>You might ask what is the need for such functions, well, first of all it allow you to read/write information from/to a binary file (like extracting information from DBF header), it is also a useful way to share information from source other than Harbour (C for instance).</div>
   <div><p><code>Bin2U()</code> is the opposite of <code><a href="#u2bin">U2Bin()</a></code></div>
 </div>
@@ -121,7 +121,7 @@ ENDIF
 </section>
 
 <section>
-<h4><a href="#u2bin" class="d-id" id="u2bin" title="∞"><code>U2Bin()</code></a><a href="https://github.com/vszakats/harbour-core/blob/8795bf4/contrib/hbxpp/binnumx.c#L71" class="d-so" title="contrib/hbxpp/binnumx.c">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=U2Bin">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+U2Bin">in Discussions</a></nav></nav></span>
+<h4><a href="#u2bin" class="d-id" id="u2bin" title="∞"><code>U2Bin()</code></a><a href="https://github.com/vszakats/harbour-core/blob/dae1a86/contrib/hbxpp/binnumx.c#L71" class="d-so" title="contrib/hbxpp/binnumx.c">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=U2Bin">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+U2Bin">in Discussions</a></nav></nav></span>
 <span class="d-eb"><a href="#" title="Top" class="d-ebi">⌃</a> | <a href="index.html" title="Index" class="d-ebi">☰</a> | <a href="https://github.com/vszakats/harbour-core/edit/master/contrib/hbxpp/doc/en/binnumx.txt">Improve this doc</a></span></h4>
 <div class="d-ol">Convert Harbour numeric into unsigned long encoded bytes</div>
 <div class="d-d">Syntax</div>
@@ -132,7 +132,7 @@ ENDIF
 <div class="d-it"><code>U2Bin()</code> return four bytes character string that contains 32-bit encoded unsigned long integer (least significant byte first).</div>
 <div class="d-d">Description</div>
 <div class="d-it">
-  <div><p><code>U2Bin()</code> is one of the low level binary conversion functions, those functions convert between Harbour numeric and a character representation of numeric value. <code>U2Bin()</code> take a numeric integer value and convert it into four bytes of encoded 32-bit unsigned long integer.</div>
+  <div><p><code>U2Bin()</code> is one of the low-level binary conversion functions, those functions convert between Harbour numeric and a character representation of numeric value. <code>U2Bin()</code> take a numeric integer value and convert it into four bytes of encoded 32-bit unsigned long integer.</div>
   <div><p>You might ask what is the need for such functions, well, first of all it allow you to read/write information from/to a binary file (like extracting information from DBF header), it is also a useful way to share information from source other than Harbour (C for instance).</div>
   <div><p><code>U2Bin()</code> is the opposite of <code><a href="#bin2u">Bin2U()</a></code></div>
 </div>
@@ -151,7 +151,7 @@ ENDIF
 </section>
 
 <section>
-<h4><a href="#w2bin" class="d-id" id="w2bin" title="∞"><code>W2Bin()</code></a><a href="https://github.com/vszakats/harbour-core/blob/8795bf4/contrib/hbxpp/binnumx.c#L80" class="d-so" title="contrib/hbxpp/binnumx.c">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=W2Bin">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+W2Bin">in Discussions</a></nav></nav></span>
+<h4><a href="#w2bin" class="d-id" id="w2bin" title="∞"><code>W2Bin()</code></a><a href="https://github.com/vszakats/harbour-core/blob/dae1a86/contrib/hbxpp/binnumx.c#L80" class="d-so" title="contrib/hbxpp/binnumx.c">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/harbour-core/search?type=Code&q=W2Bin">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+W2Bin">in Discussions</a></nav></nav></span>
 <span class="d-eb"><a href="#" title="Top" class="d-ebi">⌃</a> | <a href="index.html" title="Index" class="d-ebi">☰</a> | <a href="https://github.com/vszakats/harbour-core/edit/master/contrib/hbxpp/doc/en/binnumx.txt">Improve this doc</a></span></h4>
 <div class="d-ol">Convert Harbour numeric into unsigned short encoded bytes</div>
 <div class="d-d">Syntax</div>
@@ -162,7 +162,7 @@ ENDIF
 <div class="d-it"><code>W2Bin()</code> return two bytes character string that contains 16-bit encoded unsigned short integer (least significant byte first).</div>
 <div class="d-d">Description</div>
 <div class="d-it">
-  <div><p><code>W2Bin()</code> is one of the low level binary conversion functions, those functions convert between Harbour numeric and a character representation of numeric value. <code>W2Bin()</code> take a numeric integer value and convert it into two bytes of encoded 16-bit unsigned short integer.</div>
+  <div><p><code>W2Bin()</code> is one of the low-level binary conversion functions, those functions convert between Harbour numeric and a character representation of numeric value. <code>W2Bin()</code> take a numeric integer value and convert it into two bytes of encoded 16-bit unsigned short integer.</div>
   <div><p>You might ask what is the need for such functions, well, first of all it allow you to read/write information from/to a binary file (like extracting information from DBF header), it is also a useful way to share information from source other than Harbour (C for instance).</div>
   <div><p><code>W2Bin()</code> is the opposite of <code><a href="harbour.html#bin2w" title="harbour">Bin2W()</a></code></div>
 </div>
@@ -218,8 +218,8 @@ ENDIF
 </main>
 
 <footer>
-<div>Generated by hbdoc on 2017-08-14 17:15 UTC</div>
-<div>Based on revision <a href="https://github.com/vszakats/harbour-core/tree/8795bf4">8795bf4</a></div>
+<div>Generated by hbdoc on 2017-08-14 19:00 UTC</div>
+<div>Based on revision <a href="https://github.com/vszakats/harbour-core/tree/dae1a86">dae1a86</a></div>
 <div>Content processing, layout &amp; design © 2017 <a href="https://vszakats.net/harbour">vszakats</a></div>
 </footer>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/prism.min.js" integrity="sha384-rYrm3wzug6YeKl/b+fTQ97I5TVSAs/vakIvEwzeyXUXS2SxYvgi7sBHZuV/UqZWf" crossorigin="anonymous"></script>

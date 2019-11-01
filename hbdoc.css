@@ -594,6 +594,7 @@ p {
   min-width: 9em;
   position: absolute;
   padding: 5px 5px;
+  z-index: 1;
 }
 
 /* Links inside the dropdown */

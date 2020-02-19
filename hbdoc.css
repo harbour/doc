@@ -619,7 +619,7 @@ p {
 }
 
 .lang .dropdown-content {
-  min-width: 10px !important;
+  min-width: 60px !important;
 }
 
 .lang .dropdown-content a {

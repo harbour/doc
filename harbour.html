@@ -11,7 +11,16 @@
 
 <title>Harbour Reference Guide · Harbour core</title>
 
-<link rel="stylesheet" referrerpolicy="no-referrer" href="https://cdn.jsdelivr.net/gh/PrismJS/prism@1.17.1/themes/prism-okaidia.min.css" integrity="sha384-hzSQv7QKXE82WDQSeStIgfnGAwraLbz6JGoKT2+KSjyeg42Cg+G3vE2DphViuxCV" crossorigin="anonymous">
+<style>
+/**
+ * Minified by jsDelivr using clean-css v4.2.1.
+ * Original file: /gh/PrismJS/prism@1.17.1/themes/prism-okaidia.css
+ * 
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ */
+code[class*=language-],pre[class*=language-]{color:#f8f8f2;background:0 0;text-shadow:0 1px rgba(0,0,0,.3);font-family:Consolas,Monaco,'Andale Mono','Ubuntu Mono',monospace;font-size:1em;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto;border-radius:.3em}:not(pre)>code[class*=language-],pre[class*=language-]{background:#272822}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal}.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#708090}.token.punctuation{color:#f8f8f2}.namespace{opacity:.7}.token.constant,.token.deleted,.token.property,.token.symbol,.token.tag{color:#f92672}.token.boolean,.token.number{color:#ae81ff}.token.attr-name,.token.builtin,.token.char,.token.inserted,.token.selector,.token.string{color:#a6e22e}.language-css .token.string,.style .token.string,.token.entity,.token.operator,.token.url,.token.variable{color:#f8f8f2}.token.atrule,.token.attr-value,.token.class-name,.token.function{color:#e6db74}.token.keyword{color:#66d9ef}.token.important,.token.regex{color:#fd971f}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}
+/*# sourceMappingURL=/sm/40fbac8c090a0ea2949bef662c4dc8f61e9fdf4136e4615ec312d47b6c8d4578.map */
+</style>
 <link rel="stylesheet" href="hbdoc.css">
 
 <body>
@@ -21,7 +30,7 @@
  <path d="m900 1908c137.17-53.265 443.4-77.006 600-52.437-27.114-474.75-34.113-758.18-7.68-1116.3 2.056-27.195 4.283-54.9 6.68-83.245-34.633 68.628-579.45 1206.4-599 1252z"/>
  <path d="m1503 297c-123.84 327.12-161.3 844.46-213.46 1389.5-169.5-13.113-449.01 19.795-659.3 108.82 13.528-23.75 771.23-1330.1 872.77-1498.3z"/>
  <path d="m1172 1270c-224.3-65.046-473.09 64.996-694 204 153.35-235.43 613.25-936.89 1011-1474-301.51 419.86-317.18 1087.9-317 1270z"/>
- <path d="m620.8 2258.7c.662-1.037 1.36-2.165 2.068-3.191 36.736-55.29 105.69-101.18 205.1-96.72 193.8 8.619 357.24 25.577 652.18 7.207-290.1-9.342-643.35-48.142-1069.1-124.55 105.83 77.98 193.83 195.4 209.76 217.25"/>
+ <path d="m620.8 2258.7c0.662-1.037 1.36-2.165 2.068-3.191 36.736-55.29 105.69-101.18 205.1-96.72 193.8 8.619 357.24 25.577 652.18 7.207-290.1-9.342-643.35-48.142-1069.1-124.55 105.83 77.98 193.83 195.4 209.76 217.25"/>
  <path d="m2259.2 2007.9c-351.83 85.376-1111.3 54.312-2014.2-105.24 59.534 32.024 105.24 68.44 160.57 113.87 884.55 158.71 1465.7 153.54 1808.7 60.37 31.307-22.43 35.385-37.956 44.934-69.006"/>
  <path d="m2250.8 1985.6c-316.53 76.867-976 46.6-1793.5-72.332-79.588-11.605-308.23-46.57-445.63-69.063-7.464-15.506-11.282-40.462-11.282-70.79 509.45 68.675 1799.6 275.42 2244 168.26 2.015 12.02 7.115 18.487 6.527 43.929"/>
 </svg>
@@ -573,7 +582,7 @@
 <div class="d-it">
   <div><p>Clipper is a trademark of Computer Associates and will often be referred to as CA-Cl*pper within Harbour documents. Regardless of this variant, Clipper is recognized as Computer Associates' trademark.</div>
   <div><p>Harbour is a free software compiler for the xBase superset language often referred to as Clipper (the language that is implemented by the compiler Clipper). The goal of Harbour is to produce a cross platform CA-Cl*pper compatible compiler.</div>
-  <div><p>The Harbour website is at <a href="https://vszakats.github.io/hb/">https://vszakats.github.io/hb/</a>. If you have any problem with this copy of Harbour please visit our web site and ensure that you are using the latest release.</div>
+  <div><p>The Harbour website is at <a href="https://vszakats.github.io/harbour-core/">https://vszakats.github.io/harbour-core/</a>. If you have any problem with this copy of Harbour please visit our web site and ensure that you are using the latest release.</div>
   <div><p>If you are reading this file as part of a source distribution of Harbour you probably want to start by reading <code><a href="https://github.com/vszakats/hb/blob/096e855/doc/dirstruc.txt">doc/dirstruc.txt</a></code> because this is your map to the Harbour source directories.</div>
   <div><p>Harbour is a superset of Clipper and is backwards compatible with nearly 100% of all Clipper 5.2x or 5.3 code. Most Clipper S'87 code will also compile and run fine, but may require some modifications to run well.</div>
 </div>
@@ -608,10 +617,10 @@
   <div><p><hr><code>-es[&lt;level&gt;]</code>     set exit severity</div>
   <div><p><code>-es</code> or <code>-es0</code> - all warnings are ignored and exit status returned</div>
   <div><p>by the compiler is equal to 0 if there are no errors in compiled source file.</div>
-  <div><p><code>-es1</code>      - any warnings generate a nonzero exit status, but</div>
+  <div><p><code>-es1</code>      - any warnings generate a non-zero exit status, but</div>
   <div><p>output is still created.</div>
   <div><p><code>-es2</code>      - all warnings are treated as errors and no output</div>
-  <div><p>file is created. The exit status is set to a nonzero value.</div>
+  <div><p>file is created. The exit status is set to a non-zero value.</div>
   <div><p><hr><code>-fn[:[l|u]|-]</code>    set file name casing (<code>l</code>=lower <code>u</code>=upper)</div>
   <div><p><hr><code>-fd[:[l|u]|-]</code>    set directory casing (<code>l</code>=lower <code>u</code>=upper)</div>
   <div><p><hr><code>-fp[:&lt;char&gt;]</code>     set path separator</div>
@@ -1297,7 +1306,7 @@ AFill( aArray, 5 )
 <div class="d-it">
   <div><p>This function inserts a <code>NIL</code> value in the array named <code>aArray</code> at the <code>nPos</code>th position.</div>
   <div><p>All array elements starting with the <code>nPos</code>th position will be shifted down one subscript position in the array list and the last item in the array will be removed completely. In other words, if an array element were to be inserted at the fifth subscript position, the element previously in the fifth position would now be located at the sixth position. The length of the array <code>aArray</code> will remain unchanged.</div>
-  <div><p>Note: To avoid losing last element, you can use <code><a href="#hb_ains">hb_AIns()</a></code> which supports auto-sizing of array.</div>
+  <div><p>Note: To avoid loosing last element, you can use <code><a href="#hb_ains">hb_AIns()</a></code> which supports auto-sizing of array.</div>
 </div>
 <div class="d-d">Examples</div>
 <section class="d-ex"><div class="playground"><pre contenteditable="true" spellcheck="false"><code class="language-c">LOCAL aArray := { &quot;Harbour&quot;, &quot;is&quot;, &quot;Power!&quot;, &quot;!!!&quot; }
@@ -2360,7 +2369,7 @@ dbCreate( &quot;onlyname.dbf&quot;, __FLedit( aStruct, aList ) )
 <div class="d-it">Ready</div>
 <div class="d-d">Compliance</div>
 <div class="d-it">
-  <div>CA-Cl*pper has internal undocumented function named <code>__FLedit()</code>, in Harbour we name it <code><a href="#__dbstructfilter">__dbStructFilter()</a></code>. The new name gives a better description of what this function does. In Harbour <code>__FLedit()</code> simply calls <code><a href="#__dbstructfilter">__dbStructFilter()</a></code> and therefore the latter is the recommended function to use.</div>
+  <div>CA-Cl*pper has internal undocumented function named <code>__FLedit()</code>, in Harbour we name it <code><a href="#__dbstructfilter">__dbStructFilter()</a></code>. The new name gives a better description of what this function does. In Harbour <code>__FLedit()</code> simply calls <code><a href="#__dbstructfilter">__dbStructFilter()</a></code> and therefor the latter is the recommended function to use.</div>
   <div>This function is only visible if <code><a href="https://github.com/vszakats/hb/blob/096e855/src/rdd/dbstrux.prg">src/rdd/dbstrux.prg</a></code> was compiled with the <code>HB_CLP_UNDOC</code> flag.</div>
 </div>
 <div class="d-d">Platforms</div>
@@ -3866,7 +3875,7 @@ INDEX ON field-&gt;first TO test
 <div class="d-d">Arguments</div>
 <div class="d-it">None.</div>
 <div class="d-d">Returns</div>
-<div class="d-it"><code>nPosition</code>   Ordinal position of a controlling index</div>
+<div class="d-it"><code>nPosition</code>   Ordinal position of a controling index</div>
 <div class="d-d">Description</div>
 <div class="d-it">The <code>IndexOrd()</code> function returns the numeric position of the current controlling index in the selected or designated work area. A returned value of 0 indicated that no active index is controlling the database, which therefore is in the natural order.</div>
 <div class="d-d">Examples</div>
@@ -4203,7 +4212,7 @@ INDEX ON field-&gt;first TO test FOR field-&gt;age &gt; 50
 <div class="d-d">Status</div>
 <div class="d-it">Started</div>
 <div class="d-d">Compliance</div>
-<div class="d-it">This function is CA-Cl*pper compliant with one exception: If the <code>xOrder</code> parameter is not specified or <code>xOrder</code> is 0, the current active order is used.</div>
+<div class="d-it">This function is CA-Cl*pper compliant with one exception: If the <code>xOrder</code> paramter is not specified or <code>xOrder</code> is 0, the current active order is used.</div>
 <div class="d-d">Platforms</div>
 <div class="d-it">Available on all platforms</div>
 <div class="d-d">File</div>
@@ -4239,7 +4248,7 @@ ordSetFocus( 2 )
 <div class="d-d">Status</div>
 <div class="d-it">Started</div>
 <div class="d-d">Compliance</div>
-<div class="d-it">This function is CA-Cl*pper compliant with one exception: If the <code>xOrder</code> parameter is not specified or <code>xOrder</code> is 0, the current active order is used.</div>
+<div class="d-it">This function is CA-Cl*pper compliant with one exception: If the <code>xOrder</code> paramter is not specified or <code>xOrder</code> is 0, the current active order is used.</div>
 <div class="d-d">Platforms</div>
 <div class="d-it">Available on all platforms</div>
 <div class="d-d">File</div>
@@ -5370,7 +5379,7 @@ RUN command                    // Gives a OS shell
 <div class="d-it"><code>SetMode()</code> returns true if the video mode change was successful; otherwise, it returns false.</div>
 <div class="d-d">Description</div>
 <div class="d-it">
-  <div><p><code>SetMode()</code> is a function that change the video mode depend on the video card and monitor combination, to match the number of rows and columns specified. Note that there are only a real few combination or rows/cols pairs that produce the video mode change. The following modes are available for <code>GTDOS</code>:</div>
+  <div><p><code>SetMode()</code> is a function that change the video mode depend on the video card and monitor combination, to match the number of rows and columns specified. Note that there are only a real few combination or rows/cols pairs that produce the video mode change. The followings are available for <code>GTDOS</code>:</div>
   <div class="d-t d-t0">
   <div>   12 rows x 40 columns   12 rows x 80 columns</div>
   <div>   25 rows x 40 columns   25 rows x 80 columns</div>
@@ -5915,7 +5924,7 @@ COUNT TO nCount
 <div class="d-it"><code>xExpression</code>  The result of the evaluated code block</div>
 <div class="d-d">Description</div>
 <div class="d-it">
-  <div><p>This function evaluates the code block expressed as <code>bBlock</code> and returns its evaluated value. If their are multiple expressions within the code block, the last expression will be value of this function.</div>
+  <div><p>This function evaluates the code bloc expressed as <code>bBlock</code> and returns its evaluated value. If their are multiple expressions within the code block, the last expression will be value of this function.</div>
   <div><p>If the code block requires parameters to be passed to it, they are specified in the parameter list <code>xVal</code> and following. Each parameter is separated by a comma within the expression list.</div>
 </div>
 <div class="d-d">Examples</div>
@@ -6768,9 +6777,9 @@ ENDIF
 <div class="d-d">Arguments</div>
 <div class="d-it">
   <div><code>nHandle</code>  OS file handle</div>
-  <div><code>nOffset</code>  Offset of the first byte of the region to be locked.</div>
+  <div>set&gt;  Offset of the first byte of the region to be locked.</div>
   <div><code>nBytes</code>   Number of bytes to be locked.</div>
-  <div><code>nType</code>    The type (read or write) of lock requested.</div>
+  <div>e&gt;    The type (read or write) of lock requested.</div>
 </div>
 <div class="d-d">Returns</div>
 <div class="d-it"><code>lSuccess</code> <code>.T.</code> if the lock was obtained, else <code>.F.</code></div>
@@ -6778,7 +6787,7 @@ ENDIF
 <div class="d-it">
   <div><p>This function attempts to lock a region of the file whose file handle is <code>nHandle</code>. This is a low-level file function.  To lock Harbour data files use either the <code><a href="#flock">FLock()</a></code> or <code><a href="#rlock">RLock()</a></code> function.</div>
   <div><p>The value of <code>nHandle</code> is obtained from either a call to the <code><a href="#fopen">FOpen()</a></code> or the <code><a href="#fcreate">FCreate()</a></code> function.</div>
-  <div><p><code>nOffset</code> is the offset (from the beginning of the file) to the first byte of the region to be locked.  (Offsets from the current position and end of file are not currently supported.)</div>
+  <div><p><code>nOffset</code> is the offset (from the beginning of the file) to the first of the region to be locked.  (Offsets from the current position nd of file are not currently supported.)</div>
   <div><p><code>nBytes</code> is the length of the region to be locked in bytes.</div>
   <div><p><code>nType</code> is the type of lock requested.  There are two types of locks: exclusive write locks ( <code>nType</code> = 0x0000 ) - the default, and shared read locks ( <code>nType</code> = 0x0100 ).  Additionally you can specify a blocking version of this function (that is it won't return until either an error has occurred or the lock has been obtained) by adding 0x0200 to the above values.</div>
 </div>
@@ -6808,7 +6817,7 @@ ENDIF
 <div class="d-d">Arguments</div>
 <div class="d-it">
   <div><code>nHandle</code>  OS file handle</div>
-  <div><code>nOffset</code>  Offset of the first byte of the region to be locked.</div>
+  <div>set&gt;  Offset of the first byte of the region to be locked.</div>
   <div><code>nBytes</code>   Number of bytes to be locked.</div>
 </div>
 <div class="d-d">Returns</div>
@@ -6817,7 +6826,7 @@ ENDIF
 <div class="d-it">
   <div><p>This function attempts to unlock a region of the file whose file handle is <code>nHandle</code>. This is a low-level file function.  To unlock Harbour data files use the <code><a href="#dbunlock">dbUnlock()</a></code> function.</div>
   <div><p>The value of <code>nHandle</code> is obtained from either a call to the <code><a href="#fopen">FOpen()</a></code> or the <code><a href="#fcreate">FCreate()</a></code> function.</div>
-  <div><p><code>nOffset</code> is the offset (from the beginning of the file) to the first byte of the region to be unlocked.  (Offsets from the current position and end of file are not currently supported.)</div>
+  <div><p><code>nOffset</code> is the offset (from the beginning of the file) to the first of the region to be unlocked.  (Offsets from the current position nd of file are not currently supported.)</div>
   <div><p><code>nBytes</code> is the length of the region to be unlocked in bytes.</div>
 </div>
 <div class="d-d">Examples</div>
@@ -8167,7 +8176,7 @@ hb_inetConnect( &lt;cAddress&gt;, &lt;nPort&gt;, &lt;socket&gt; ) → NIL
 </div>
 <div class="d-d">Description</div>
 <div class="d-it">
-  <div><p>Connects to a remote server described by <code>cAddress</code>, that can be in quad dot notation (e.g. &quot;127.0.0.1&quot;) or in DNS name (e.g. &quot;example.net&quot;), using the desired port.</div>
+  <div><p>Connects to a remote server described by <code>cAddress</code>, that can be in quad dot notation (e.g. &quot;127.0.0.1&quot;) or in DNS name (e.g. &quot;example.org&quot;), using the desired port.</div>
   <div><p><code>hb_inetConnect()</code> uses &quot;gethostbyname&quot; C system call to find the network address of the specified server; this means that this call is an hybrid function doing both a DNS scan and a <code>TCP/IP</code> connection. <code>hb_inetConnect()</code> is not thread safe, and the program must take care that two <code>hb_inetConnect()</code> functions are never called at the same moment from two different threads (or that <code><a href="#hb_inetgethosts">hb_inetGetHosts()</a></code> is not called in the same moment as an <code>hb_inetConnect()</code>).</div>
   <div><p>The second version of this function accepts a pre-built socket as a parameter. This allows to kill asynchronously a thread waiting for <code>hb_inetConnect()</code> to connect, and then cleaning up the leftover socket data. Also, it is possible to give timeout to the given <code>SOCKET</code>, but this timeout will be used only in the connection phase, after that the network address resolution is completed. Use <code><a href="#hb_inetgethosts">hb_inetGetHosts()</a></code> and <code><a href="#hb_inetconnectip">hb_inetConnectIP()</a></code> for a finer timeout control. On error, the error of the returned socket is set. The error could be due to unavailable name resolving service, host name not valid, host address not reachable and host reachable but port not open.</div>
 </div>
@@ -8545,7 +8554,7 @@ hb_inetConnectIP( &lt;cAddress&gt;, &lt;nPort&gt;, &lt;socket&gt; ) → NIL
 <div class="d-d">Description</div>
 <div class="d-it">
   <div><p>Returns an array containing all the IP addresses associated with a given host name. The IP addresses returned by this function are strings in quad dot notations, e.g. &quot;127.0.0.1&quot;, and can be directly used into <code><a href="#hb_inetconnectip">hb_inetConnectIP()</a></code>.</div>
-  <div><p><code>cName</code> can be any string: valid DNS names (e.g. &quot;example.net&quot;), locally available names (e.g. &quot;localhost&quot; or windows Network Neighborhood names), or even IP addresses in quad dot notation.</div>
+  <div><p><code>cName</code> can be any string: valid DNS names (e.g. &quot;example.org&quot;), locally available names (e.g. &quot;localhost&quot; or windows Network Neighborhood names), or even IP addresses in quad dot notation.</div>
   <div><p>NOTE: This function is not thread safe (by design), and programmers must be sure not to use it at the same time in two different threads, or not to use it together with a <code><a href="#hb_inetconnect">hb_inetConnect()</a></code>. If this kind of situation should ever arise, you are advised to use a thread <code>MUTEX</code>.</div>
   <div><p>On error, and if the server cannot be found, the function returns <code>NIL</code>.</div>
 </div>
@@ -9032,107 +9041,63 @@ hb_inetConnectIP( &lt;cAddress&gt;, &lt;nPort&gt;, &lt;socket&gt; ) → NIL
 <div class="d-it">
   <div><code>cNewLang</code>  The optional ID of the language module. Possible values for <code>cNewLang</code> are below as defined in the Codepage library, sorted by language.</div>
   <div class="d-t d-t1">
-  <div> Language                   Codepage       &lt;cNewLang&gt;</div>
-  <div> Bulgarian                  CP-866         BG866</div>
-  <div> Bulgarian                  ISO-8859-5     BGISO</div>
-  <div> Bulgarian                  MIK            BGMIK</div>
-  <div> Bulgarian                  Windows-1251   BGWIN</div>
-  <div> Czech                      CP-852         CS852</div>
-  <div> Czech (ntxcz852)           CP-852         CS852C</div>
-  <div> Czech                      ISO-8859-2     CSISO</div>
-  <div> Czech (ntxcz895)           Kamenicky      CSKAMC</div>
-  <div> Czech                      Windows-1250   CSWIN</div>
-  <div> German (ntxger)            CP-850         DE850</div>
-  <div> German (mdxger)            CP-850         DE850M</div>
-  <div> German                     CP-858         DE858</div>
-  <div> German                     ISO-8859-1     DEISO</div>
-  <div> German                     Windows-1252   DEWIN</div>
-  <div> Danish (ntxdan)            CP-865         DK865</div>
-  <div> Estonian                   C-775          EE775</div>
-  <div> Estonian                   Windows-1257   EEWIN</div>
-  <div> Greek (ntxgr437)           CP-437         EL437</div>
-  <div> Greek                      CP-737         EL737</div>
-  <div> Greek                      ISO-8859-7     ELISO</div>
-  <div> Greek                      Windows-1253   ELWIN</div>
-  <div> English                    C-437          EN</div>
-  <div> English                    Windows-1252   ENWIN</div>
-  <div> Spanish (Modern)           CP-850         ES850</div>
-  <div> Spanish (ntxspa)           CP-850         ES850C</div>
-  <div> Spanish (mdxspa)           CP-850         ES850M</div>
-  <div> Spanish (Modern)           ISO-8859-1     ESISO</div>
-  <div> Spanish (Modern)           ISO-8859-1     ESMWIN</div>
-  <div> Spanish (Modern)           Windows-1252   ESWIN</div>
-  <div> Finnish (ntxfin)           CP-850         FI850</div>
-  <div> French                     CP-850         FR850</div>
-  <div> French (ntxfre)            CP-850         FR850C</div>
-  <div> French (mdxfre)            CP-850         FR850M</div>
-  <div> French                     ISO-8859-1     FRISO</div>
-  <div> French                     Windows-1252   FRWIN</div>
-  <div> Hebrew                     CP-862         HE862</div>
-  <div> Hebrew                     Windows-1255   HEWIN</div>
-  <div> Croatian (CROSCII)         ISO-646        HR646</div>
-  <div> Croatian                   CP-852         HR852</div>
-  <div> Croatian                   ISO-8859-2     HRISO</div>
-  <div> Croatian                   Windows-1250   HRWIN</div>
-  <div> Hungarian (sixhu852)       CP-852         HU852</div>
-  <div> Hungarian (ntxhu852)       CP-852         HU852C</div>
-  <div> Hungarian                  CWI-2          HUCWI</div>
-  <div> Hungarian                  ISO-8859-2     HUISO</div>
-  <div> Hungarian                  Windows-1250   HUWIN</div>
-  <div> Icelandic (ntxic850)       CP-850         IS850</div>
-  <div> Icelandic (ntxic861)       CP-861         IS861</div>
-  <div> Italian                    CP-437         IT437</div>
-  <div> Italian (ntxita)           CP-850         IT850</div>
-  <div> Italian (mdxita)           CP-850         IT850M</div>
-  <div> Italian (with BOX chars)   ISO-8859-1b    ITISB</div>
-  <div> Italian                    ISO-8859-1     ITISO</div>
-  <div> Italian                    Windows-1252   ITWIN</div>
-  <div> Lithuanian                 CP-775         LT775</div>
-  <div> Lithuanian                 Windows-1257   LTWIN</div>
-  <div> Latvian                    C-775          LV775</div>
-  <div> Latvian                    Windows-1257   LVWIN</div>
-  <div> Dutch (ntxdut)             CP-850         NL850</div>
-  <div> Dutch (mdxdut)             CP-850         NL850M</div>
-  <div> Norwegian (ntxnor)         CP-865         NO865</div>
-  <div> Polish                     CP-852         PL852</div>
-  <div> Polish                     ISO-8859-2     PLISO</div>
-  <div> Polish                     Mazovia        PLMAZ</div>
-  <div> Polish                     Windows-1250   PLWIN</div>
-  <div> Portuguese                 CP-850         PT850</div>
-  <div> Portuguese (ntxpor)        CP-860         PT860</div>
-  <div> Portuguese                 ISO-8859-1     PTISO</div>
-  <div> Romanian                   CP-852         RO852</div>
-  <div> Romanian                   ISO-8859-2     ROISO</div>
-  <div> Romanian                   Windows-1250   ROWIN</div>
-  <div> Russian                    Windows-1251   RU1251</div>
-  <div> Russian                    CP-866         RU866</div>
-  <div> Russian                    ISO-8859-5     RUISO</div>
-  <div> Russian                    KOI-8          RUKOI8</div>
-  <div> Slovak                     CP-852         SK852</div>
-  <div> Slovak (ntxsl852)          CP-852         SK852C</div>
-  <div> Slovak                     ISO-8859-2     SKISO</div>
-  <div> Slovak (ntxsl895)          Kamenicky      SKKAMC</div>
-  <div> Slovak                     Windows-1250   SKWIN</div>
-  <div> Slovenian (SLOSCII)        ISO-646        SL646</div>
-  <div> Slovenian                  CP-852         SL852</div>
-  <div> Slovenian                  ISO-8859-2     SLISO</div>
-  <div> Slovenian                  CP-1250        SLWIN</div>
-  <div> Serbian (YUSCII)           ISO-646        SR646</div>
-  <div> Serbian (Cyrillic YUSCII)  ISO-646C       SR646C</div>
-  <div> Serbian                    Windows-1251   SRWIN</div>
-  <div> Swedish                    CP-437         SV437C</div>
-  <div> Swedish (ntxswe)           CP-437         SV437C</div>
-  <div> Swedish                    CP-850         SV850</div>
-  <div> Swedish (mdxswe)           CP-850         SV850M</div>
-  <div> Swedish                    ISO-8859-15    SVISO</div>
-  <div> Swedish                    Windows-1252   SVWIN</div>
-  <div> Turkish                    CP-857         TR857</div>
-  <div> Turkish                    ISO-8859-9     TRISO</div>
-  <div> Turkish                    Windows-1254   TRWIN</div>
-  <div> Ukrainian                  CP-1125        UA1125</div>
-  <div> Ukrainian                  Windows-1251   UA1251</div>
-  <div> Ukrainian                  CP-866         UA866</div>
-  <div> Ukrainian                  KOI8-U         UAKOI8</div>
+  <div> Language              Codepage       &lt;cNewLang&gt;</div>
+  <div> Bulgarian             866            BG866</div>
+  <div> Bulgarian             ISO-8859-5     BGISO</div>
+  <div> Bulgarian             MIK            BGMIK</div>
+  <div> Bulgarian             Windows-1251   BGWIN</div>
+  <div> Croatian              437            HR437</div>
+  <div> Croatian              852            HR852</div>
+  <div> Croatian              Windows-1250   HRWIN</div>
+  <div> Czech                 852            CS852</div>
+  <div> Czech                 ISO-8859-2     CSISO</div>
+  <div> Czech                 KAM            CSKAM</div>
+  <div> Czech                 Windoes-1250   CSWIN</div>
+  <div> English               437            EN</div>
+  <div> French                850            FR850</div>
+  <div> German                850            DE850</div>
+  <div> German                ISO-8859-1     DEWIN</div>
+  <div> Greek                 737            EL737</div>
+  <div> Greek                 Windows-1253   ELWIN</div>
+  <div> Hungarian (ntxhu852)  852            HU852C</div>
+  <div> Hungarian (sixhu852)  852            HU852</div>
+  <div> Hungarian (sixhu852)  CWI-2          HUCWI</div>
+  <div> Hungarian             ISO-8859-2     HUISO</div>
+  <div> Hungarian             Windows-1250   HUWIN</div>
+  <div> Italian               437            IT437</div>
+  <div> Italian               850            IT850</div>
+  <div> Italian               ISO-8859-1b    ITISB</div>
+  <div> Italian               ISO-8859-1     ITISO</div>
+  <div> Lithuanian            Windows-1257   LTWIN</div>
+  <div> Polish                852            PL852</div>
+  <div> Polish                ISO-8859-2     PLISO</div>
+  <div> Polish                Mazowia        PLMAZ</div>
+  <div> Polish                Windows-1250   PLWIN</div>
+  <div> Portuguese            850            PT850</div>
+  <div> Portuguese            ISO-8859-1     PTISO</div>
+  <div> Russian               866            RU866</div>
+  <div> Russian               KOI-8          RUKOI8</div>
+  <div> Russian               Windows-1251   RU1251</div>
+  <div> Serbian               Windows-1251   SRWIN</div>
+  <div> Slovak                852            SK852</div>
+  <div> Slovak                ISO-8859-2     SKISO</div>
+  <div> Slovak                Kamenicky      SKKAM</div>
+  <div> Slovak                Windows-1250   SKWIN</div>
+  <div> Slovenian             437            SL437</div>
+  <div> Slovenian             852            SL852</div>
+  <div> Slovenian             ISO-8859-2     SLISO</div>
+  <div> Slovenian             Windows-1250   SLWIN</div>
+  <div> Spanish               850            ES850</div>
+  <div> Spanish               ISO-8859-1     ESWIN</div>
+  <div> Spanish Modern        ISO-8859-1     ESMWIN</div>
+  <div> Swedish               850            SV850</div>
+  <div> Swedish (Clipper)     437            SV437C</div>
+  <div> Swedish               ISO-8859-1     SVWIN</div>
+  <div> Turkish               857            TR857</div>
+  <div> Turkish               Windows-1254   TRWIN</div>
+  <div> Ukrainian             866            UA866</div>
+  <div> Ukrainian             KOI-8U         UAKOI8</div>
+  <div> Ukrainian             Windows-1251   UA1251</div>
 </div>
   <div></div>
 </div>
@@ -10220,7 +10185,7 @@ ENDCLASS
 <div class="d-d">Arguments</div>
 <div class="d-it"><code>oObject</code> is an object to scan.</div>
 <div class="d-d">Returns</div>
-<div class="d-it"><code>__objGetMethodList()</code> return an array of character strings with all <code>METHOD</code> names for a given object. <code>__objGetMethodList()</code> would return an empty array {} if the given object does not contain any <code>METHOD</code>.</div>
+<div class="d-it"><code>__objGetMethodList()</code> return an array of character stings with all <code>METHOD</code> names for a given object. <code>__objGetMethodList()</code> would return an empty array {} if the given object does not contain any <code>METHOD</code>.</div>
 <div class="d-d">Description</div>
 <div class="d-it"><code>__objGetMethodList()</code> is a low-level class support function that let you find all class functions names for a given object. It is equivalent to <code>__objGetMsgList( oObject, .F. )</code>.</div>
 <div class="d-d">Examples</div>
@@ -10257,7 +10222,7 @@ NEXT
   <div><code>nClassType</code> is on optional numeric code for selecting which class type to return. Default value is <code>HB_MSGLISTALL</code>, returning the whole list.</div>
 </div>
 <div class="d-d">Returns</div>
-<div class="d-it"><code>__objGetMsgList()</code> return an array of character strings with all <code>VAR</code> names or all <code>METHOD</code> names for a given object. <code>__objGetMsgList()</code> would return an empty array {} if the given object does not contain the requested information.</div>
+<div class="d-it"><code>__objGetMsgList()</code> return an array of character stings with all <code>VAR</code> names or all <code>METHOD</code> names for a given object. <code>__objGetMsgList()</code> would return an empty array {} if the given object does not contain the requested information.</div>
 <div class="d-d">Description</div>
 <div class="d-it">
   <div><p><code>__objGetMsgList()</code> is a low-level class support function that let you find all instance variable or method names for a given object.</div>
@@ -11128,7 +11093,7 @@ SET DECIMALS TO 7
 ? hb_ntoc( n )     // --&gt; 2.509
 ? Str( n, 10, 7 )  // --&gt;  2.5090000
 ? hb_ntoc( n, 7 )  // --&gt; 2.509
-? &quot;--- pass non-numeric / NIL value ----&quot;
+? &quot;--- pass non numeric / NIL value ----&quot;
 ? Str( &quot;42&quot; )      // --&gt; RTE
 </code></pre></div></section>
 <div class="d-d">Status</div>
@@ -11357,7 +11322,7 @@ NEXT
 <section>
 <h4><a href="#islower" class="d-id" id="islower" title="∞"><code>IsLower()</code></a><a href="https://github.com/vszakats/hb/blob/096e855/src/rtl/is.c#L78" class="d-so" title="src/rtl/is.c">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/hb/search?type=Code&q=IsLower">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+IsLower">in Discussions</a></nav></nav></span>
 <span class="d-eb"><a href="#" title="Top" class="d-ebi">⌃</a> | <a href="index.html" title="Index" class="d-ebi">☰</a> | <a href="https://github.com/vszakats/hb/edit/master/doc/en/string.txt">Improve this doc</a></span></h4>
-<div class="d-ol">Checks if leftmost character is a lowercase letter.</div>
+<div class="d-ol">Checks if leftmost character is an lowercased letter.</div>
 <div class="d-d">Syntax</div>
 <div class="d-sy"><pre><code>IsLower( &lt;cString&gt; ) → lLower</code></pre></div>
 <div class="d-d">Arguments</div>
@@ -11365,7 +11330,7 @@ NEXT
 <div class="d-d">Returns</div>
 <div class="d-it"><code>lLower</code> Logical true (<code>.T.</code>) or false (<code>.F.</code>).</div>
 <div class="d-d">Description</div>
-<div class="d-it">This function takes the character string <code>cString</code> and checks to see if the leftmost character is a lowercase letter. If so, the function will return a logical true (<code>.T.</code>); otherwise, it will return a logical false (<code>.F.</code>).</div>
+<div class="d-it">This function takes the character string <code>cString</code> and checks to see if the leftmost character is a lowercased letter. If so, the function will return a logical true (<code>.T.</code>); otherwise, it will return a logical false (<code>.F.</code>).</div>
 <div class="d-d">Examples</div>
 <section class="d-ex"><div class="playground"><pre contenteditable="true" spellcheck="false"><code class="language-c">? IsLower( &quot;ABCde&quot; )  // --&gt; .F.
 ? IsLower( &quot;aBCde&quot; )  // --&gt; .T.
@@ -11387,7 +11352,7 @@ NEXT
 <section>
 <h4><a href="#isupper" class="d-id" id="isupper" title="∞"><code>IsUpper()</code></a><a href="https://github.com/vszakats/hb/blob/096e855/src/rtl/is.c#L69" class="d-so" title="src/rtl/is.c">Source code</a><span class="d-so"><nav class="dropdown d-ebi">🔎<nav class="dropdown-content d-dd"><a href="https://github.com/vszakats/hb/search?type=Code&q=IsUpper">in Repository</a><a href="https://google.com/search?q=site:groups.google.com/d/msg/harbour+IsUpper">in Discussions</a></nav></nav></span>
 <span class="d-eb"><a href="#" title="Top" class="d-ebi">⌃</a> | <a href="index.html" title="Index" class="d-ebi">☰</a> | <a href="https://github.com/vszakats/hb/edit/master/doc/en/string.txt">Improve this doc</a></span></h4>
-<div class="d-ol">Checks if leftmost character is an uppercase letter.</div>
+<div class="d-ol">Checks if leftmost character is an uppercased letter.</div>
 <div class="d-d">Syntax</div>
 <div class="d-sy"><pre><code>IsUpper( &lt;cString&gt; ) → lUpper</code></pre></div>
 <div class="d-d">Arguments</div>
@@ -11395,7 +11360,7 @@ NEXT
 <div class="d-d">Returns</div>
 <div class="d-it"><code>lUpper</code> Logical true (<code>.T.</code>) or false (<code>.F.</code>).</div>
 <div class="d-d">Description</div>
-<div class="d-it">This function checks to see if the leftmost character if <code>cString</code> is an uppercase letter. If so, the function will return a logical true (<code>.T.</code>); otherwise, it will return a logical false (<code>.F.</code>).</div>
+<div class="d-it">This function checks to see if the leftmost character if <code>cString</code> is a uppercased letter. If so, the function will return a logical true (<code>.T.</code>); otherwise, it will return a logical false (<code>.F.</code>).</div>
 <div class="d-d">Examples</div>
 <section class="d-ex"><div class="playground"><pre contenteditable="true" spellcheck="false"><code class="language-c">? IsUpper( &quot;Abcde&quot; )  // --&gt; .T.
 ? IsUpper( &quot;abcde&quot; )  // --&gt; .F.
@@ -11459,9 +11424,9 @@ NEXT
 <div class="d-d">Arguments</div>
 <div class="d-it"><code>cString</code> Any character expression.</div>
 <div class="d-d">Returns</div>
-<div class="d-it"><code>cLowerString</code> Lowercase value of <code>cString</code></div>
+<div class="d-it"><code>cLowerString</code> Lowercased value of <code>cString</code></div>
 <div class="d-d">Description</div>
-<div class="d-it">This function converts any character expression passes as <code>cString</code> to its lowercase representation. Any non-alphabetic character within <code>cString</code> will remain unchanged.</div>
+<div class="d-it">This function converts any character expression passes as <code>cString</code> to its lowercased representation. Any non alphabetic character withing <code>cString</code> will remain unchanged.</div>
 <div class="d-d">Examples</div>
 <section class="d-ex"><div class="playground"><pre contenteditable="true" spellcheck="false"><code class="language-c">? Lower( &quot;HARBOUR&quot; )    // --&gt; &quot;harbour&quot;
 ? Lower( &quot;Hello All&quot; )  // --&gt; &quot;hello all&quot;
@@ -12285,7 +12250,7 @@ LOCAL dDate := Date()
 <div class="d-d">Arguments</div>
 <div class="d-it"><code>cString</code> Any character expression.</div>
 <div class="d-d">Returns</div>
-<div class="d-it"><code>cUpperString</code> Uppercase value of <code>cString</code></div>
+<div class="d-it"><code>cUpperString</code> Uppercased value of <code>cString</code></div>
 <div class="d-d">Description</div>
 <div class="d-it">This function converts all alpha characters in <code>cString</code> to upper case values and returns that formatted character expression.</div>
 <div class="d-d">Examples</div>
@@ -12783,7 +12748,7 @@ KEYBOARD &quot;Hello&quot;; CLEAR TYPEAHEAD; ? Inkey()  // --&gt; 0
   <div> First letter   Select next menu with the same first letter,</div>
   <div>                return this item position.</div>
 </div>
-  <div><p>upon exit the cursor is placed at <code><a href="#maxrow">MaxRow()</a></code> - 1, 0 <code>__MenuTo()</code> can be nested without losing the previous prompts.</div>
+  <div><p>upon exit the cursor is placed at <code><a href="#maxrow">MaxRow()</a></code> - 1, 0 <code>__MenuTo()</code> can be nested without loosing the previous prompts.</div>
   <div><p><code>MENU TO</code> command is preprocessed into <code>__MenuTo()</code> function during compile time.</div>
 </div>
 <div class="d-d">Examples</div>
@@ -12999,7 +12964,7 @@ cMessage := &quot;Major Database Corruption Detected!;&quot; + ;
             &quot;where DO you want to go today?&quot;
 
 // define response option
-aOptions := { &quot;Ok&quot;, &quot;www.example.net&quot;, &quot;Oops&quot; }
+aOptions := { &quot;Ok&quot;, &quot;www.example.org&quot;, &quot;Oops&quot; }
 
 // show message and let end user select panic level
 nChoice := Alert( cMessage, aOptions )
@@ -13389,7 +13354,7 @@ ENDIF
   <div> First letter   Select next menu with the same first letter,</div>
   <div>                return this item position.</div>
 </div>
-  <div><p>upon exit the cursor is placed at <code><a href="#maxrow">MaxRow()</a></code> - 1, 0 <code>MENU TO</code> can be nested without losing the previous prompts.</div>
+  <div><p>upon exit the cursor is placed at <code><a href="#maxrow">MaxRow()</a></code> - 1, 0 <code>MENU TO</code> can be nested without loosing the previous prompts.</div>
   <div><p><code>MENU TO</code> command is preprocessed into <code><a href="#__menuto">__MenuTo()</a></code> function during compile time.</div>
 </div>
 <div class="d-d">Examples</div>
@@ -17828,13 +17793,24 @@ oTb:SetKey( K_F10, {| oTb, nkey | ShowListByname( oTb ) } )
 </main>
 
 <footer>
-<div>Generated by hbdoc on 2020-02-19 17:21 UTC</div>
+<div>Generated by hbdoc on 2020-10-15 00:54 UTC</div>
 <div>Based on revision <a href="https://github.com/vszakats/hb/tree/096e855">096e855</a></div>
 <div>Content processing, layout &amp; design © 2020 <a href="https://vsz.me/hb">vszakats</a></div>
 </footer>
-<script src="https://cdn.jsdelivr.net/gh/PrismJS/prism@1.17.1/prism.min.js" integrity="sha384-bTbnCdEUtzR3UrrtJU1lkaqUK5L6WCdo0UGR5p820NJaSfBN3MotFIcVAW8gzuj9" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/gh/PrismJS/prism@1.17.1/components/prism-c.min.js" integrity="sha384-MtYdRru3SDCV9LosOhivsVazH7EgJCuBmhh9bJiOoAr6ERv1fJ4Zw1wuMSjFZIWV" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js" integrity="sha384-vk5WoKIaW/vJyUAd9n/wmopsmNhiy+L2Z+SBxGYnUkunIxVxAv/UtMOhba/xskxh" crossorigin="anonymous"></script>
+<script>
+/**
+ * Minified by jsDelivr using Terser v3.14.1.
+ * Original file: /gh/PrismJS/prism@1.17.1/prism.js
+ * 
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ */
+var _self="undefined"!=typeof window?window:"undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?self:{},Prism=function(e){var t=/\blang(?:uage)?-([\w-]+)\b/i,a=0,n={manual:e.Prism&&e.Prism.manual,disableWorkerMessageHandler:e.Prism&&e.Prism.disableWorkerMessageHandler,util:{encode:function(e){return e instanceof r?new r(e.type,n.util.encode(e.content),e.alias):Array.isArray(e)?e.map(n.util.encode):e.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/\u00a0/g," ")},type:function(e){return Object.prototype.toString.call(e).slice(8,-1)},objId:function(e){return e.__id||Object.defineProperty(e,"__id",{value:++a}),e.__id},clone:function e(t,a){var r,s,i=n.util.type(t);switch(a=a||{},i){case"Object":if(s=n.util.objId(t),a[s])return a[s];for(var l in r={},a[s]=r,t)t.hasOwnProperty(l)&&(r[l]=e(t[l],a));return r;case"Array":return s=n.util.objId(t),a[s]?a[s]:(r=[],a[s]=r,t.forEach(function(t,n){r[n]=e(t,a)}),r);default:return t}}},languages:{extend:function(e,t){var a=n.util.clone(n.languages[e]);for(var r in t)a[r]=t[r];return a},insertBefore:function(e,t,a,r){var s=(r=r||n.languages)[e],i={};for(var l in s)if(s.hasOwnProperty(l)){if(l==t)for(var o in a)a.hasOwnProperty(o)&&(i[o]=a[o]);a.hasOwnProperty(l)||(i[l]=s[l])}var u=r[e];return r[e]=i,n.languages.DFS(n.languages,function(t,a){a===u&&t!=e&&(this[t]=i)}),i},DFS:function e(t,a,r,s){s=s||{};var i=n.util.objId;for(var l in t)if(t.hasOwnProperty(l)){a.call(t,l,t[l],r||l);var o=t[l],u=n.util.type(o);"Object"!==u||s[i(o)]?"Array"!==u||s[i(o)]||(s[i(o)]=!0,e(o,a,l,s)):(s[i(o)]=!0,e(o,a,null,s))}}},plugins:{},highlightAll:function(e,t){n.highlightAllUnder(document,e,t)},highlightAllUnder:function(e,t,a){var r={callback:a,selector:'code[class*="language-"], [class*="language-"] code, code[class*="lang-"], [class*="lang-"] code'};n.hooks.run("before-highlightall",r);for(var s,i=e.querySelectorAll(r.selector),l=0;s=i[l++];)n.highlightElement(s,!0===t,r.callback)},highlightElement:function(a,r,s){for(var i,l="none",o=a;o&&!t.test(o.className);)o=o.parentNode;o&&(l=(o.className.match(t)||[,"none"])[1].toLowerCase(),i=n.languages[l]),a.className=a.className.replace(t,"").replace(/\s+/g," ")+" language-"+l,a.parentNode&&(o=a.parentNode,/pre/i.test(o.nodeName)&&(o.className=o.className.replace(t,"").replace(/\s+/g," ")+" language-"+l));var u={element:a,language:l,grammar:i,code:a.textContent},c=function(e){u.highlightedCode=e,n.hooks.run("before-insert",u),u.element.innerHTML=u.highlightedCode,n.hooks.run("after-highlight",u),n.hooks.run("complete",u),s&&s.call(u.element)};if(n.hooks.run("before-sanity-check",u),u.code)if(n.hooks.run("before-highlight",u),u.grammar)if(r&&e.Worker){var g=new Worker(n.filename);g.onmessage=function(e){c(e.data)},g.postMessage(JSON.stringify({language:u.language,code:u.code,immediateClose:!0}))}else c(n.highlight(u.code,u.grammar,u.language));else c(n.util.encode(u.code));else n.hooks.run("complete",u)},highlight:function(e,t,a){var s={code:e,grammar:t,language:a};return n.hooks.run("before-tokenize",s),s.tokens=n.tokenize(s.code,s.grammar),n.hooks.run("after-tokenize",s),r.stringify(n.util.encode(s.tokens),s.language)},matchGrammar:function(e,t,a,s,i,l,o){for(var u in a)if(a.hasOwnProperty(u)&&a[u]){if(u==o)return;var c=a[u];c="Array"===n.util.type(c)?c:[c];for(var g=0;g<c.length;++g){var d=c[g],p=d.inside,m=!!d.lookbehind,f=!!d.greedy,h=0,b=d.alias;if(f&&!d.pattern.global){var y=d.pattern.toString().match(/[imuy]*$/)[0];d.pattern=RegExp(d.pattern.source,y+"g")}d=d.pattern||d;for(var F=s,v=i;F<t.length;v+=t[F].length,++F){var k=t[F];if(t.length>e.length)return;if(!(k instanceof r)){if(f&&F!=t.length-1){if(d.lastIndex=v,!(S=d.exec(e)))break;for(var w=S.index+(m?S[1].length:0),A=S.index+S[0].length,x=F,P=v,$=t.length;x<$&&(P<A||!t[x].type&&!t[x-1].greedy);++x)w>=(P+=t[x].length)&&(++F,v=P);if(t[F]instanceof r)continue;_=x-F,k=e.slice(v,P),S.index-=v}else{d.lastIndex=0;var S=d.exec(k),_=1}if(S){m&&(h=S[1]?S[1].length:0);A=(w=S.index+h)+(S=S[0].slice(h)).length;var j=k.slice(0,w),C=k.slice(A),E=[F,_];j&&(++F,v+=j.length,E.push(j));var N=new r(u,p?n.tokenize(S,p):S,b,S,f);if(E.push(N),C&&E.push(C),Array.prototype.splice.apply(t,E),1!=_&&n.matchGrammar(e,t,a,F,v,!0,u),l)break}else if(l)break}}}}},tokenize:function(e,t){var a=[e],r=t.rest;if(r){for(var s in r)t[s]=r[s];delete t.rest}return n.matchGrammar(e,a,t,0,0,!1),a},hooks:{all:{},add:function(e,t){var a=n.hooks.all;a[e]=a[e]||[],a[e].push(t)},run:function(e,t){var a=n.hooks.all[e];if(a&&a.length)for(var r,s=0;r=a[s++];)r(t)}},Token:r};function r(e,t,a,n,r){this.type=e,this.content=t,this.alias=a,this.length=0|(n||"").length,this.greedy=!!r}if(e.Prism=n,r.stringify=function(e,t){if("string"==typeof e)return e;if(Array.isArray(e))return e.map(function(e){return r.stringify(e,t)}).join("");var a={type:e.type,content:r.stringify(e.content,t),tag:"span",classes:["token",e.type],attributes:{},language:t};if(e.alias){var s=Array.isArray(e.alias)?e.alias:[e.alias];Array.prototype.push.apply(a.classes,s)}n.hooks.run("wrap",a);var i=Object.keys(a.attributes).map(function(e){return e+'="'+(a.attributes[e]||"").replace(/"/g,"&quot;")+'"'}).join(" ");return"<"+a.tag+' class="'+a.classes.join(" ")+'"'+(i?" "+i:"")+">"+a.content+"</"+a.tag+">"},!e.document)return e.addEventListener?(n.disableWorkerMessageHandler||e.addEventListener("message",function(t){var a=JSON.parse(t.data),r=a.language,s=a.code,i=a.immediateClose;e.postMessage(n.highlight(s,n.languages[r],r)),i&&e.close()},!1),n):n;var s=document.currentScript||[].slice.call(document.getElementsByTagName("script")).pop();return s&&(n.filename=s.src,n.manual||s.hasAttribute("data-manual")||("loading"!==document.readyState?window.requestAnimationFrame?window.requestAnimationFrame(n.highlightAll):window.setTimeout(n.highlightAll,16):document.addEventListener("DOMContentLoaded",n.highlightAll))),n}(_self);"undefined"!=typeof module&&module.exports&&(module.exports=Prism),"undefined"!=typeof global&&(global.Prism=Prism),Prism.languages.markup={comment:/<!--[\s\S]*?-->/,prolog:/<\?[\s\S]+?\?>/,doctype:/<!DOCTYPE[\s\S]+?>/i,cdata:/<!\[CDATA\[[\s\S]*?]]>/i,tag:{pattern:/<\/?(?!\d)[^\s>\/=$<%]+(?:\s(?:\s*[^\s>\/=]+(?:\s*=\s*(?:"[^"]*"|'[^']*'|[^\s'">=]+(?=[\s>]))|(?=[\s\/>])))+)?\s*\/?>/i,greedy:!0,inside:{tag:{pattern:/^<\/?[^\s>\/]+/i,inside:{punctuation:/^<\/?/,namespace:/^[^\s>\/:]+:/}},"attr-value":{pattern:/=\s*(?:"[^"]*"|'[^']*'|[^\s'">=]+)/i,inside:{punctuation:[/^=/,{pattern:/^(\s*)["']|["']$/,lookbehind:!0}]}},punctuation:/\/?>/,"attr-name":{pattern:/[^\s>\/]+/,inside:{namespace:/^[^\s>\/:]+:/}}}},entity:/&#?[\da-z]{1,8};/i},Prism.languages.markup.tag.inside["attr-value"].inside.entity=Prism.languages.markup.entity,Prism.hooks.add("wrap",function(e){"entity"===e.type&&(e.attributes.title=e.content.replace(/&amp;/,"&"))}),Object.defineProperty(Prism.languages.markup.tag,"addInlined",{value:function(e,t){var a={};a["language-"+t]={pattern:/(^<!\[CDATA\[)[\s\S]+?(?=\]\]>$)/i,lookbehind:!0,inside:Prism.languages[t]},a.cdata=/^<!\[CDATA\[|\]\]>$/i;var n={"included-cdata":{pattern:/<!\[CDATA\[[\s\S]*?\]\]>/i,inside:a}};n["language-"+t]={pattern:/[\s\S]+/,inside:Prism.languages[t]};var r={};r[e]={pattern:RegExp(/(<__[\s\S]*?>)(?:<!\[CDATA\[[\s\S]*?\]\]>\s*|[\s\S])*?(?=<\/__>)/.source.replace(/__/g,e),"i"),lookbehind:!0,greedy:!0,inside:n},Prism.languages.insertBefore("markup","cdata",r)}}),Prism.languages.xml=Prism.languages.extend("markup",{}),Prism.languages.html=Prism.languages.markup,Prism.languages.mathml=Prism.languages.markup,Prism.languages.svg=Prism.languages.markup,function(e){var t=/("|')(?:\\(?:\r\n|[\s\S])|(?!\1)[^\\\r\n])*\1/;e.languages.css={comment:/\/\*[\s\S]*?\*\//,atrule:{pattern:/@[\w-]+[\s\S]*?(?:;|(?=\s*\{))/,inside:{rule:/@[\w-]+/}},url:{pattern:RegExp("url\\((?:"+t.source+"|[^\n\r()]*)\\)","i"),inside:{function:/^url/i,punctuation:/^\(|\)$/}},selector:RegExp("[^{}\\s](?:[^{};\"']|"+t.source+")*?(?=\\s*\\{)"),string:{pattern:t,greedy:!0},property:/[-_a-z\xA0-\uFFFF][-\w\xA0-\uFFFF]*(?=\s*:)/i,important:/!important\b/i,function:/[-a-z0-9]+(?=\()/i,punctuation:/[(){};:,]/},e.languages.css.atrule.inside.rest=e.languages.css;var a=e.languages.markup;a&&(a.tag.addInlined("style","css"),e.languages.insertBefore("inside","attr-value",{"style-attr":{pattern:/\s*style=("|')(?:\\[\s\S]|(?!\1)[^\\])*\1/i,inside:{"attr-name":{pattern:/^\s*style/i,inside:a.tag.inside},punctuation:/^\s*=\s*['"]|['"]\s*$/,"attr-value":{pattern:/.+/i,inside:e.languages.css}},alias:"language-css"}},a.tag))}(Prism),Prism.languages.clike={comment:[{pattern:/(^|[^\\])\/\*[\s\S]*?(?:\*\/|$)/,lookbehind:!0},{pattern:/(^|[^\\:])\/\/.*/,lookbehind:!0,greedy:!0}],string:{pattern:/(["'])(?:\\(?:\r\n|[\s\S])|(?!\1)[^\\\r\n])*\1/,greedy:!0},"class-name":{pattern:/((?:\b(?:class|interface|extends|implements|trait|instanceof|new)\s+)|(?:catch\s+\())[\w.\\]+/i,lookbehind:!0,inside:{punctuation:/[.\\]/}},keyword:/\b(?:if|else|while|do|for|return|in|instanceof|function|new|try|throw|catch|finally|null|break|continue)\b/,boolean:/\b(?:true|false)\b/,function:/\w+(?=\()/,number:/\b0x[\da-f]+\b|(?:\b\d+\.?\d*|\B\.\d+)(?:e[+-]?\d+)?/i,operator:/--?|\+\+?|!=?=?|<=?|>=?|==?=?|&&?|\|\|?|\?|\*|\/|~|\^|%/,punctuation:/[{}[\];(),.:]/},Prism.languages.javascript=Prism.languages.extend("clike",{"class-name":[Prism.languages.clike["class-name"],{pattern:/(^|[^$\w\xA0-\uFFFF])[_$A-Z\xA0-\uFFFF][$\w\xA0-\uFFFF]*(?=\.(?:prototype|constructor))/,lookbehind:!0}],keyword:[{pattern:/((?:^|})\s*)(?:catch|finally)\b/,lookbehind:!0},{pattern:/(^|[^.])\b(?:as|async(?=\s*(?:function\b|\(|[$\w\xA0-\uFFFF]|$))|await|break|case|class|const|continue|debugger|default|delete|do|else|enum|export|extends|for|from|function|get|if|implements|import|in|instanceof|interface|let|new|null|of|package|private|protected|public|return|set|static|super|switch|this|throw|try|typeof|undefined|var|void|while|with|yield)\b/,lookbehind:!0}],number:/\b(?:(?:0[xX](?:[\dA-Fa-f](?:_[\dA-Fa-f])?)+|0[bB](?:[01](?:_[01])?)+|0[oO](?:[0-7](?:_[0-7])?)+)n?|(?:\d(?:_\d)?)+n|NaN|Infinity)\b|(?:\b(?:\d(?:_\d)?)+\.?(?:\d(?:_\d)?)*|\B\.(?:\d(?:_\d)?)+)(?:[Ee][+-]?(?:\d(?:_\d)?)+)?/,function:/#?[_$a-zA-Z\xA0-\uFFFF][$\w\xA0-\uFFFF]*(?=\s*(?:\.\s*(?:apply|bind|call)\s*)?\()/,operator:/-[-=]?|\+[+=]?|!=?=?|<<?=?|>>?>?=?|=(?:==?|>)?|&[&=]?|\|[|=]?|\*\*?=?|\/=?|~|\^=?|%=?|\?|\.{3}/}),Prism.languages.javascript["class-name"][0].pattern=/(\b(?:class|interface|extends|implements|instanceof|new)\s+)[\w.\\]+/,Prism.languages.insertBefore("javascript","keyword",{regex:{pattern:/((?:^|[^$\w\xA0-\uFFFF."'\])\s])\s*)\/(\[(?:[^\]\\\r\n]|\\.)*]|\\.|[^\/\\\[\r\n])+\/[gimyus]{0,6}(?=\s*($|[\r\n,.;})\]]))/,lookbehind:!0,greedy:!0},"function-variable":{pattern:/#?[_$a-zA-Z\xA0-\uFFFF][$\w\xA0-\uFFFF]*(?=\s*[=:]\s*(?:async\s*)?(?:\bfunction\b|(?:\((?:[^()]|\([^()]*\))*\)|[_$a-zA-Z\xA0-\uFFFF][$\w\xA0-\uFFFF]*)\s*=>))/,alias:"function"},parameter:[{pattern:/(function(?:\s+[_$A-Za-z\xA0-\uFFFF][$\w\xA0-\uFFFF]*)?\s*\(\s*)(?!\s)(?:[^()]|\([^()]*\))+?(?=\s*\))/,lookbehind:!0,inside:Prism.languages.javascript},{pattern:/[_$a-z\xA0-\uFFFF][$\w\xA0-\uFFFF]*(?=\s*=>)/i,inside:Prism.languages.javascript},{pattern:/(\(\s*)(?!\s)(?:[^()]|\([^()]*\))+?(?=\s*\)\s*=>)/,lookbehind:!0,inside:Prism.languages.javascript},{pattern:/((?:\b|\s|^)(?!(?:as|async|await|break|case|catch|class|const|continue|debugger|default|delete|do|else|enum|export|extends|finally|for|from|function|get|if|implements|import|in|instanceof|interface|let|new|null|of|package|private|protected|public|return|set|static|super|switch|this|throw|try|typeof|undefined|var|void|while|with|yield)(?![$\w\xA0-\uFFFF]))(?:[_$A-Za-z\xA0-\uFFFF][$\w\xA0-\uFFFF]*\s*)\(\s*)(?!\s)(?:[^()]|\([^()]*\))+?(?=\s*\)\s*\{)/,lookbehind:!0,inside:Prism.languages.javascript}],constant:/\b[A-Z](?:[A-Z_]|\dx?)*\b/}),Prism.languages.insertBefore("javascript","string",{"template-string":{pattern:/`(?:\\[\s\S]|\${(?:[^{}]|{(?:[^{}]|{[^}]*})*})+}|(?!\${)[^\\`])*`/,greedy:!0,inside:{"template-punctuation":{pattern:/^`|`$/,alias:"string"},interpolation:{pattern:/((?:^|[^\\])(?:\\{2})*)\${(?:[^{}]|{(?:[^{}]|{[^}]*})*})+}/,lookbehind:!0,inside:{"interpolation-punctuation":{pattern:/^\${|}$/,alias:"punctuation"},rest:Prism.languages.javascript}},string:/[\s\S]+/}}}),Prism.languages.markup&&Prism.languages.markup.tag.addInlined("script","javascript"),Prism.languages.js=Prism.languages.javascript,"undefined"!=typeof self&&self.Prism&&self.document&&document.querySelector&&(self.Prism.fileHighlight=function(e){e=e||document;var t={js:"javascript",py:"python",rb:"ruby",ps1:"powershell",psm1:"powershell",sh:"bash",bat:"batch",h:"c",tex:"latex"};Array.prototype.slice.call(e.querySelectorAll("pre[data-src]")).forEach(function(e){if(!e.hasAttribute("data-src-loaded")){for(var a,n=e.getAttribute("data-src"),r=e,s=/\blang(?:uage)?-([\w-]+)\b/i;r&&!s.test(r.className);)r=r.parentNode;if(r&&(a=(e.className.match(s)||[,""])[1]),!a){var i=(n.match(/\.(\w+)$/)||[,""])[1];a=t[i]||i}var l=document.createElement("code");l.className="language-"+a,e.textContent="",l.textContent="Loading…",e.appendChild(l);var o=new XMLHttpRequest;o.open("GET",n,!0),o.onreadystatechange=function(){4==o.readyState&&(o.status<400&&o.responseText?(l.textContent=o.responseText,Prism.highlightElement(l),e.setAttribute("data-src-loaded","")):o.status>=400?l.textContent="✖ Error "+o.status+" while fetching file: "+o.statusText:l.textContent="✖ Error: File does not exist or is empty")},o.send(null)}}),Prism.plugins.toolbar&&Prism.plugins.toolbar.registerButton("download-file",function(e){var t=e.element.parentNode;if(t&&/pre/i.test(t.nodeName)&&t.hasAttribute("data-src")&&t.hasAttribute("data-download-link")){var a=t.getAttribute("data-src"),n=document.createElement("a");return n.textContent=t.getAttribute("data-download-link-label")||"Download",n.setAttribute("download",""),n.href=a,n}})},document.addEventListener("DOMContentLoaded",function(){self.Prism.fileHighlight()}));
+//# sourceMappingURL=/sm/a264a97a2f20660266cd3a454fb3decaf16e29e2a9ecf5259f4176ddbec26e70.map
+</script>
+<script>
+Prism.languages.c=Prism.languages.extend("clike",{"class-name":{pattern:/(\b(?:enum|struct)\s+)\w+/,lookbehind:!0},keyword:/\b(?:_Alignas|_Alignof|_Atomic|_Bool|_Complex|_Generic|_Imaginary|_Noreturn|_Static_assert|_Thread_local|asm|typeof|inline|auto|break|case|char|const|continue|default|do|double|else|enum|extern|float|for|goto|if|int|long|register|return|short|signed|sizeof|static|struct|switch|typedef|union|unsigned|void|volatile|while)\b/,operator:/>>=?|<<=?|->|([-+&|:])\1|[?:~]|[-+*/%&|^!=<>]=?/,number:/(?:\b0x(?:[\da-f]+\.?[\da-f]*|\.[\da-f]+)(?:p[+-]?\d+)?|(?:\b\d+\.?\d*|\B\.\d+)(?:e[+-]?\d+)?)[ful]*/i}),Prism.languages.insertBefore("c","string",{macro:{pattern:/(^\s*)#\s*[a-z]+(?:[^\r\n\\]|\\(?:\r\n|[\s\S]))*/im,lookbehind:!0,alias:"property",inside:{string:{pattern:/(#\s*include\s*)(?:<.+?>|("|')(?:\\?.)+?\2)/,lookbehind:!0},directive:{pattern:/(#\s*)\b(?:define|defined|elif|else|endif|error|ifdef|ifndef|if|import|include|line|pragma|undef|using)\b/,lookbehind:!0,alias:"keyword"}}},constant:/\b(?:__FILE__|__LINE__|__DATE__|__TIME__|__TIMESTAMP__|__func__|EOF|NULL|SEEK_CUR|SEEK_END|SEEK_SET|stdin|stdout|stderr)\b/}),delete Prism.languages.c.boolean;
+</script>
+<script src="jquery.min.js"></script>
 <script src="https://os.allcom.pl/hb/static/playground-embed.js" crossorigin="anonymous"></script>
 <script src="https://os.allcom.pl/hb/static/play.js" crossorigin="anonymous"></script>
 <script>
